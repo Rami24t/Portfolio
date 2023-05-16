@@ -19,9 +19,6 @@ function App() {
         <Contact />
         <StarsCanvas />
         </div>
-        <EarthCanvas />
-        <BallCanvas />
-        <Tech />
         </div>
       </Router>
       )
