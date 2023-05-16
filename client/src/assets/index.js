@@ -1,5 +1,5 @@
 import aou from "./institute/aou.png";
-import alfatraining from "./institute/alfatraining.svg";
+import alfatraining from "./institute/alfatraining.png";
 import dci from "./institute/dci.svg";
 import socialapp1 from "./projects/SocialWallPostsApp/Social-Wall_Profile.png";
 import cssillustrator1 from "./projects/CSS-Illustrator/CSS-Illustrator1.png";

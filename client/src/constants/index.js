@@ -16,12 +16,11 @@ import {
     alfatraining,
     socialapp1,
     cssillustrator1,
-    meta,
     restaurant1,
     threejs,
   } from "../assets";
   
-  export const navLinks = [
+  const navLinks = [
     {
       id: "about",
       title: "About",
@@ -132,7 +131,6 @@ import {
     {
       title: "Full stack Developer",
       company_name: "MetaTech",
-      icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2022 - Feb 2022",
       points: [
@@ -237,4 +235,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { navLinks, services, technologies, experiences, testimonials, projects };
