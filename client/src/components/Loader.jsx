@@ -1,8 +1,14 @@
 import React from 'react'
+import { Html, useProgress } from '@react-three/drei'
 
 const Loader = () => {
+  const { progress } = useProgress()
+
   return (
-    <div>Loader</div>
+    <Html center>
+      <span style={{ color: 'white' }}>{progress} % loaded</span>
+    </Html>
+    
   )
 }
 
