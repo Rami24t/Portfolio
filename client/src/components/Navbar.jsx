@@ -3,6 +3,14 @@ import { NavLink } from 'react-router-dom';
 import { navLinks } from '../constants'
 import PropTypes from 'prop-types';
 
+// import Box from '@mui/material/Box';
+// import Switch from '@mui/material/Switch';
+// import Paper from '@mui/material/Paper';
+import Collapse from '@mui/material/Collapse';
+// import FormControlLabel from '@mui/material/FormControlLabel';
+// import { Theme } from '@mui/material/styles';
+import './Navbar.scss';
+
 const Navbar = ({sendMail}) => {
   
   const [toggle, setToggle] = React.useState(true)
@@ -16,7 +24,8 @@ const Navbar = ({sendMail}) => {
           <span className="text-blue-600 self-center text-2xl font-semibold whitespace-nowrap hidden xs:block">Rami</span>
           <span className="text-blue-600 self-center text-2xl font-semibold whitespace-nowrap hidden sm:block">&nbsp;| Developer </span>
       </NavLink>
-      <div className={` items-center justify-between w-full md:flex md:w-auto order-1 ${toggle ? ' hidden ' : ''}` } id="navbar-cta">
+      <div className={` items-center justify-between w-full md:flex md:w-auto order-1 transition-all ${toggle ? '' : ''}` } id="navbar-cta">
+      <Collapse in={toggle}  >
         <ul className="text-slate-200 flex flex-col font-medium p-3 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
           {
             navLinks.map((link) => (
@@ -26,6 +35,7 @@ const Navbar = ({sendMail}) => {
             ))
           }
         </ul>
+      </Collapse>
       </div>
       <div className="flex md:order-2">
           <NavLink type="button" to={'#contact'} onClick={()=>{setActive('contact'); sendMail()}} className="text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">Hire me</NavLink>
