@@ -12,7 +12,7 @@ const Hero = () => {
         Hola 👋, soy Rami y me gusta el desarrollo de software web! <br />
         مرحبا 👋 ، أنا رامي وأحب تطوير برامج الويب! <br />
       </div>
-        <Computer />
+      <Computer />
     </section>
   );
 };

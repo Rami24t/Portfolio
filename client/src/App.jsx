@@ -56,7 +56,6 @@ const sendMail = () => {
         <Navbar sendMail={sendMail}/>
         <Hero />
         </div>
-        <ComputerCanvas />
         <About />
         <Experience />
         <Tech />
