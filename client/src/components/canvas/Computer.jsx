@@ -41,7 +41,7 @@ useEffect(() => {
         object={computer.scene}
         scale={0.7}
         position={[0, -3.25, -1.5]}
-        rotation={[-0.009, -0.2, -0.4 + scrollPosition * 0.0005]}
+        rotation={[-0.009, -0.2, -0.15 + scrollPosition * 0.0005]}
       />
     </mesh>
   );
@@ -59,8 +59,8 @@ export default function canvas() {
         <OrbitControls
           enableZoom={false}
           enablePan={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI / 1.9}
+          minPolarAngle={Math.PI / 2.1}
         />
         <ComputerMesh />
       </Suspense>
