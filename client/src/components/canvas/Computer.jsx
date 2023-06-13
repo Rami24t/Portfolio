@@ -9,6 +9,18 @@ const ComputerMesh = () => {
   // Set up state for the hovered and active state
   const [hovered, setHover] = useState(false);
   // const [active, setActive] = useState(false)
+  const [scrollPosition, setScrollPosition] = useState(0);
+const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+};
+useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, []);
+
   return (
     <mesh
       ref={mesh}
@@ -16,19 +28,20 @@ const ComputerMesh = () => {
       onPointerOver={(event) => setHover(true)}
       onPointerOut={(event) => setHover(false)}
     >
-      <hemisphereLight intensity={hovered ? 0.01 : 0} />
+      <hemisphereLight intensity={0.15} groundColor='black'/>
       <spotLight
         position={[10, 15, 10]}
         angle={0.3}
         penumbra={1}
-        intensity={hovered ? 0.7 : 0.2}
+        intensity={hovered ? 0.6 : 0.2}
         castShadow
-      />
+        shadow-mapSize={1024}      />
+              <pointLight intensity={hovered ? 0.5 : 0.01} />
       <primitive
         object={computer.scene}
-        scale={0.75}
+        scale={0.7}
         position={[0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        rotation={[-0.009, -0.2, -0.4 + scrollPosition * 0.0005]}
       />
     </mesh>
   );
@@ -47,7 +60,7 @@ export default function canvas() {
           enableZoom={false}
           enablePan={false}
           maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 5}
+          minPolarAngle={Math.PI / 2}
         />
         <ComputerMesh />
       </Suspense>
