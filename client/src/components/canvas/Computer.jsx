@@ -28,6 +28,12 @@ useEffect(() => {
       onPointerOver={(event) => setHover(true)}
       onPointerOut={(event) => setHover(false)}
     >
+      <primitive
+        object={computer.scene}
+        scale={0.71}
+        position={[0, -3.25, -1.5]}
+        rotation={[-0.009, -0.2, -0.15 + scrollPosition * 0.0005]}
+      />
       <hemisphereLight intensity={0.15} groundColor='black'/>
       <spotLight
         position={[10, 15, 10]}
@@ -36,13 +42,7 @@ useEffect(() => {
         intensity={hovered ? 0.6 : 0.2}
         castShadow
         shadow-mapSize={1024}      />
-              <pointLight intensity={hovered ? 0.5 : 0.01} />
-      <primitive
-        object={computer.scene}
-        scale={0.7}
-        position={[0, -3.25, -1.5]}
-        rotation={[-0.009, -0.2, -0.15 + scrollPosition * 0.0005]}
-      />
+      <pointLight intensity={0.9} />
     </mesh>
   );
 };
