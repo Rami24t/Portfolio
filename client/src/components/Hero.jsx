@@ -13,11 +13,11 @@ const Hero = () => {
       >
         <p>
           Hi <span className="animate-pulse inline-block">👋</span>, I&#39;m
-          Rami and I like web software development!{" "}
+          Rami and I like web/software development!{" "}
         </p>
         <p>
           Hallo <span className="animate-pulse inline-block">👋</span>, ich bin
-          Rami und ich mag Web-Software-Entwicklung!{" "}
+          Rami und ich mag Web/Software Entwicklung!{" "}
         </p>
       </div>
       <div
@@ -45,19 +45,13 @@ const Hero = () => {
           <p className={tw.heroSubText}>
             I enjoy developing <span className="text-blue-500">websites</span>{" "}
             and <span className="text-blue-500">webapplications</span> using
-            new technologies such as the
-            <span className="text-blue-500"> MERN stack.</span>
-          </p>
+            new technologies.</p>
           {/* <p className={tw.heroSubText}>
             On the <span className="text-blue-500">front-end development</span>,
             I enjoyed developing UIs and UXs using languages such as
             <span className="text-blue-500"> JavaScript </span>,
             <span className="text-blue-500"> HTML </span>, and
-            <span className="text-blue-500"> CSS </span>, and technologies and
-            frameworks such as
-            <span className="text-blue-500"> React </span>JS, and
-            <span className="text-blue-500"> Tailwind </span>
-            CSS.
+            <span className="text-blue-500"> CSS </span>, and technologies and CSS.
           </p> */}
           {/* <p className={tw.heroSubText}>
   In backend web development, I enjoyed designing and developing server-side applications and RESTful APIs using
