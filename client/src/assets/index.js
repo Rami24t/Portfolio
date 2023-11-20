@@ -1,6 +1,8 @@
 import aou from "./institute/aou.png";
 import alfatraining from "./institute/alfatraining.png";
 import dci from "./institute/dci.svg";
+import alkis from "./other/alkis.jpg";
+import inosoft from "./institute/inosoft.png";
 import socialapp1 from "./projects/SocialWallPostsApp/Social-Wall_Profile.png";
 import cssillustrator1 from "./projects/CSS-Illustrator/CSS-Illustrator1.png";
 import restaurant1 from "./projects/IRT_E-Restaurant/add.png";
@@ -22,7 +24,6 @@ import mongodb from "./tech/mongodb.png";
 import tailwind from "./tech/tailwind.png";
 import git from "./tech/git.png";
 import threejs from "./tech/threejs.svg";
-
 
 export {
   logo,
@@ -47,6 +48,8 @@ export {
   typescript,
   threejs,
   dci,
+  alkis,
+  inosoft,
   alfatraining,
   aou,
 };
