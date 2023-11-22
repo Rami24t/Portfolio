@@ -4,3 +4,4 @@ My Dev Portfolio built using React, Tailwind, Emailjs, React Three Fiber and Thr
 #### Credits
 - "Gaming Desktop PC" model (https://skfb.ly/or88C) by Yolala1232 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 - "Stylized planet" model (https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70) by cmzw (https://sketchfab.com/cmzw) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+- Based on the  "Build and Deploy an Amazing 3D Web Developer Portfolio in React JS | Beginner Three.js Tutorial"  youtube tutorial https://youtu.be/0fYi8SGA20k and the https://github.com/adrianhajdin/project_3D_developer_portfolio project by Adrian Hajdin from the JavaScript Mastery youtube channel.
