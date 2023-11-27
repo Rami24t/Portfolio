@@ -7,8 +7,8 @@ export default {
     extend: {
       colors: {
         primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
+        secondary: "#00a9e6",
+        tertiary: "#001e3b",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -21,7 +21,8 @@ export default {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/other/herobg.png')",
+        "1":
+          "url('/src/assets/other/blue-wavy-light-streak-background.jpg')",
       },
     },
   },
