@@ -517,9 +517,9 @@ const projects = [
       "https://github.com/Rami24t/React-JS-TicTacToe-Revisted-Session",
   },
   {
-    name: "Azure Open AI GPT-3.5 turbo Chatbot",
+    name: "Open AI Chat",
     description:
-      "A chatbot that can chat with you about anything you want. It is powered by the Azure Open AI GPT-3.5 turbo API.",
+      "Azure-OpenAI-Chat-Completion-Web-App Chat App Adv. Live Demo. A chatbot that can chat with you about anything you want. It can be powered by the Azure Open AI GPT-3.5 turbo API.",
     tags: [
       {
         name: "Azure Open AI GPT-3.5 turbo API",
