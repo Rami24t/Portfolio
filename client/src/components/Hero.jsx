@@ -26,7 +26,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${tw.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-blue-600">Rami</span>
+            Hi, I&apos;m <span className="text-blue-600">Rami</span>
           </h1>
           <p className={`${tw.heroSubText} mt-2 text-white-100`}>
             I enjoy <span className="text-secondary">developing</span> high end
