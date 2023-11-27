@@ -1,56 +1,108 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { navLinks } from '../constants'
-import PropTypes from 'prop-types';
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { logo } from "../assets";
+import { CgMenuLeftAlt } from "react-icons/cg";
+import { HiOutlineX } from "react-icons/hi";
+import { navLinks } from "../constants";
+import tw from "../tw-styles";
 
-// import Box from '@mui/material/Box';
-// import Switch from '@mui/material/Switch';
-// import Paper from '@mui/material/Paper';
-import Collapse from '@mui/material/Collapse';
-// import FormControlLabel from '@mui/material/FormControlLabel';
-// import { Theme } from '@mui/material/styles';
-import './Navbar.scss';
+const Navbar = ({ sendMail }) => {
+  const [active, setActive] = useState("");
+  const [toggle, setToggle] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
-const Navbar = ({sendMail}) => {
-  
-  const [toggle, setToggle] = React.useState(true)
-  const [active, setActive] = React.useState('')
-  
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <nav className="bg-none border-gray-200">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <NavLink className="flex items-center" href='#' onClick={()=>setActive('')}>
-          <img src="/logo-no-background.svg" className="h-14 mr-3" alt="Rami Logo"/>
-          <span className="text-blue-600 self-center text-2xl font-semibold whitespace-nowrap hidden xs:block">Rami</span>
-          <span className="text-blue-600 self-center text-2xl font-semibold whitespace-nowrap hidden sm:block">&nbsp;| Developer </span>
-      </NavLink>
-      <div className={` items-center justify-between w-full md:flex md:w-auto order-1 transition-all ${toggle ? '' : ''}` } id="navbar-cta">
-      <Collapse in={toggle}  >
-        <ul className="text-slate-200 flex flex-col font-medium p-3 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
-          {
-            navLinks.map((link) => (
-              <li key={link.id}>
-                <NavLink onClick={()=>setActive(link.id)} to={`#${link.id}`} className={"font-semibold block py-2 pl-3 pr-4 rounded md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent " + ( active===link.id ? "text-blue-400 " : "")}>{link.title}</NavLink>
-              </li>
-            ))
-          }
+    <nav
+      className={`${
+        tw.paddingX
+      } w-full flex items-center py-5 fixed top-0 z-20 ${
+        scrolled ? "bg-primary" : "bg-transparent"
+      }`}
+    >
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+        <Link
+          to="/"
+          className="flex items-center gap-2"
+          onClick={() => {
+            setActive("");
+            window.scrollTo(0, 0);
+          }}
+        >
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+            <span className="logo text-slate-200"> Rami Al-Saadi &nbsp; </span>
+            <span className="md:block hidden"> &nbsp; Web Developer </span>
+          </p>
+        </Link>
+
+        <ul className="list-none hidden sm:flex flex-row gap-10">
+          {navLinks.map((nav) => (
+            <li
+              key={nav.id}
+              className={`${
+                active === nav.title ? "text-slate-100" : "text-secondary"
+              } hover:text-slate-100 text-[18px] font-medium cursor-pointer`}
+              onClick={() => {
+                setActive(nav.title);
+                nav.id === "contact" && sendMail();
+              }}
+            >
+              <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          ))}
         </ul>
-      </Collapse>
-      </div>
-      <div className="flex md:order-2">
-          <NavLink type="button" to={'#contact'} onClick={()=>{setActive('contact'); sendMail()}} className="text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">Hire me</NavLink>
-          <button onClick={()=>setToggle(prev=>!prev)} type="button" className="inline-flex items-center p-2 text-sm rounded-lg md:hidden focus:outline-none focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
-            <span className="sr-only">Open main menu</span>
-            <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
-        </button>
-      </div>
+
+        <div className="sm:hidden flex flex-1 justify-end items-center">
+            { toggle ? (
+              <HiOutlineX
+                className="text-slate-100 text-[28px] cursor-pointer w-[28px] h-[28px] object-contain"
+                onClick={() => setToggle(!toggle)}
+              />
+            ) : (
+              <CgMenuLeftAlt
+                className="text-slate-100 text-[28px] cursor-pointer w-[28px] h-[28px] object-contain"
+                onClick={() => setToggle(!toggle)}
+              />
+            )}
+          <div
+            className={`${
+              !toggle ? "hidden" : "flex"
+            } p-6 bg-black absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+          >
+            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
+              {navLinks.map((nav) => (
+                <li
+                  key={nav.id}
+                  className={`font-medium cursor-pointer text-[16px] ${
+                    active === nav.title ? "text-slate-100" : "text-secondary"
+                  }`}
+                  onClick={() => {
+                    setToggle(!toggle);
+                    setActive(nav.title);
+                  }}
+                >
+                  <a href={`#${nav.id}`}>{nav.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-Navbar.propTypes = {
-  sendMail: PropTypes.func.isRequired
-}
-
-export default Navbar
+export default Navbar;
