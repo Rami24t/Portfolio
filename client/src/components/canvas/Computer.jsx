@@ -1,25 +1,41 @@
-import { Suspense } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload } from "@react-three/drei";
-import CanvasLoader from "../Loader";
 import { ComputerMesh } from "./ComputerMesh";
 
-export default function canvas() {
+import Spinner from "../Spinner";
+
+export default function ComputerCanvas() {
+  // set and listen to media query
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    setIsMobile(mediaQuery.matches);
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+
   return (
     <Canvas
       frameloop="demand"
       shadows
+      dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense fallback={<Spinner size={10} darkMode={true} />}>
         <OrbitControls
           enableZoom={false}
           enablePan={false}
           maxPolarAngle={Math.PI / 1.9}
           minPolarAngle={Math.PI / 2.1}
         />
-        <ComputerMesh />
+        <ComputerMesh isMobile={isMobile} />
       </Suspense>
       <Preload all />
     </Canvas>
