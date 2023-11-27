@@ -5,9 +5,9 @@ import { ComputerCanvas } from "./canvas";
 const Hero = () => {
   const greeting = () => {
     const time = new Date().getHours();
-    if (time > 4 && time < 12) {
+    if (time > 3 && time < 12) {
       return "Morning";
-    } else if (time < 17) {
+    } else if (time >= 12 && time < 17) {
       return "Afternoon";
     } else {
       return "Evening";
