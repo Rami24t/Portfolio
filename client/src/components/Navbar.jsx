@@ -66,17 +66,17 @@ const Navbar = ({ sendMail }) => {
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
-            { toggle ? (
-              <HiOutlineX
-                className="text-slate-100 text-[28px] cursor-pointer w-[28px] h-[28px] object-contain"
-                onClick={() => setToggle(!toggle)}
-              />
-            ) : (
-              <CgMenuLeftAlt
-                className="text-slate-100 text-[28px] cursor-pointer w-[28px] h-[28px] object-contain"
-                onClick={() => setToggle(!toggle)}
-              />
-            )}
+          {toggle ? (
+            <HiOutlineX
+              className="text-slate-100 text-[28px] cursor-pointer w-[28px] h-[28px] object-contain"
+              onClick={() => setToggle(!toggle)}
+            />
+          ) : (
+            <CgMenuLeftAlt
+              className="text-slate-100 text-[28px] cursor-pointer w-[28px] h-[28px] object-contain"
+              onClick={() => setToggle(!toggle)}
+            />
+          )}
           <div
             className={`${
               !toggle ? "hidden" : "flex"

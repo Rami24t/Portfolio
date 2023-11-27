@@ -1,9 +1,6 @@
-import React from 'react'
+import { SectionWrapper } from "../hoc";
+import { Tech } from "./Tech.1";
 
-const Tech = () => {
-  return (
-    <div>Tech</div>
-  )
-}
+const wrappedTech = SectionWrapper(Tech, "");
 
-export default Tech
+export default wrappedTech;

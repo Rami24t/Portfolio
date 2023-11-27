@@ -5,11 +5,10 @@ import {
   Hero,
   About,
   Tech,
-  Experience,
-  Works,
-  Feedbacks,
-  Contact,
-  StarsCanvas,
+  Career,
+  Projects,
+  Feedback,
+  Contact ,
 } from "./components";
 
 function App() {
@@ -60,19 +59,19 @@ function App() {
 
   return (
     <Router>
-      <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
+      <div className="relative z-0 bg-black">
+        <div className="bg-1 bg-cover bg-center bg-no-repeat">
           <Navbar sendMail={sendMail} />
           <Hero />
         </div>
         <About />
-        <Experience />
+        <Career />
         <Tech />
-        <Works />
-        <Feedbacks />
+        <Projects />
+        <Feedback />
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          <div></div> 
         </div>
       </div>
     </Router>
