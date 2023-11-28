@@ -247,6 +247,10 @@ const projects = [
         name: "local-storage",
         color: "pink-text-gradient",
       },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
     ],
     images: [gsl2, gsl],
     source_code_link:
