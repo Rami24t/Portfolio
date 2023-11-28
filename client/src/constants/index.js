@@ -40,10 +40,25 @@ import {
   edmundo2,
   sM1,
   sM2,
-  // threejs,
-  // inosoft,
   gsl,
   gsl2,
+  cashier,
+  currencyConverter,
+  weatherApp,
+  deedsProject,
+  deedTracker1,
+  glowingLettersSCSS,
+  goldenRatioArt,
+  JSTicTacToeReact1,
+  JSTicTacToeReact2,
+  reactBoat,
+  reactBoat2,
+  reactCarSpeedometer,
+  songPlayerFlex,
+  secretUnfoldsAnim,
+  portfolio3d,
+  // threejs,
+  // inosoft,
 } from "../assets";
 
 const navLinks = [
@@ -545,6 +560,79 @@ const projects = [
     images: [aoa1, aoa2],
     source_code_link:
       "https://github.com/Rami24t/Azure-OpenAI-Chat-Completion-Web-App",
+  },
+  {
+    name: "Other Projects",
+    description:
+      "Other projects can be found on my GitHub profile. They include a live BitCoin currency converter, a react Car and a react Boat speedometers' simulations, a CLI cashier return solution, handcrafted CSS illustrations and animations, artistic pages, websites' coding challenges, web development exercises, JavaScript challenges and tests, and more.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "RESTful APIs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SASS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React Router",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    images: [
+      cashier,
+      currencyConverter,
+      weatherApp,
+      deedsProject,
+      deedTracker1,
+      glowingLettersSCSS,
+      goldenRatioArt,
+      JSTicTacToeReact1,
+      JSTicTacToeReact2,
+      reactBoat,
+      reactBoat2,
+      reactCarSpeedometer,
+      songPlayerFlex,
+      secretUnfoldsAnim,
+      portfolio3d,
+    ],
+    source_code_link: "github.com/Rami24t",
   },
 ];
 
