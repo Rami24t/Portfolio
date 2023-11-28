@@ -10,14 +10,14 @@ export const ProjectCard = ({
   source_code_link,
   index,
 }) => {
-  const [src, setSrc] = useState(images[0]);
+  const [srcIndex, setSrcIndex] = useState(0);
   useEffect(() => {
-    const imgSrcInterval = setTimeout(() => {
-      setSrc(src === images[0] ? images[1] : images[0]);
+    const imgSrcInterval = setInterval(() => {
+      setSrcIndex((prev) => (prev + 1) % images.length);
     }, index * 70 + 3000);
 
-    return () => clearTimeout(imgSrcInterval);
-  }, [images, index, src]);
+    return () => clearInterval(imgSrcInterval);
+  }, [images.length, index]);
 
   return (
     <Tilt
@@ -31,11 +31,11 @@ export const ProjectCard = ({
       <div
         className="relative w-full h-[230px]"
         onMouseEnter={() => {
-          setSrc(src === images[0] ? images[1] : images[0]);
+          setSrcIndex((src) => (src + 1) % images.length);
         }}
       >
         <img
-          src={src}
+          src={images[srcIndex]}
           alt="project images"
           className="w-full h-full object-cover rounded-lg"
         />
