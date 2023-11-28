@@ -30,6 +30,21 @@ import restaurant1 from "./projects/IRT_E-Restaurant/add.png";
 import cat from "./projects/IRT_E-Restaurant/cat.png";
 import edmundo1 from "./projects/EdMundo/edmundo3.jpg";
 import edmundo2 from "./projects/EdMundo/edmundo1.png";
+import cashier from "./projects/CashierRegister.png";
+import currencyConverter from "./projects/CCurrencyConverter.png";
+import weatherApp from "./projects/CLI_WeatherApp.png";
+import deedsProject from "./projects/deedsProject.png";
+import deedTracker1 from "./projects/deedTracker1.png";
+import glowingLettersSCSS from "./projects/glowingLettersSCSS.png";
+import goldenRatioArt from "./projects/goldenRatioArt.png";
+import JSTicTacToeReact1 from "./projects/JSTicTacToeReact1.png";
+import JSTicTacToeReact2 from "./projects/JSTicTacToeReact2.png";
+import reactBoat from "./projects/ReactBoat.png";
+import reactBoat2 from "./projects/ReactBoat2.png";
+import reactCarSpeedometer from "./projects/ReactCarSpeedometer.png";
+import songPlayerFlex from "./projects/SongPlayerFlex.png";
+import secretUnfoldsAnim from "./projects/secretUnfoldsAnim.png";
+import portfolio3d from "./projects/portfolio3d.jpg";
 import logo from "/logo2-no-background.svg";
 import backend from "./other/backend.png";
 import creator from "./other/creator.png";
@@ -46,6 +61,7 @@ import mongodb from "./tech/mongodb.png";
 import tailwind from "./tech/tailwind.png";
 import git from "./tech/git.png";
 import threejs from "./tech/threejs.svg";
+
 
 export {
   logo,
@@ -75,6 +91,21 @@ export {
   aoa2,
   sM1,
   sM2,
+  cashier,
+  currencyConverter,
+  weatherApp,
+  deedsProject,
+  deedTracker1,
+  glowingLettersSCSS,
+  goldenRatioArt,
+  JSTicTacToeReact1,
+  JSTicTacToeReact2,
+  reactBoat,
+  reactBoat2,
+  reactCarSpeedometer,
+  songPlayerFlex,
+  secretUnfoldsAnim,
+  portfolio3d,
   backend,
   creator,
   mobile,
