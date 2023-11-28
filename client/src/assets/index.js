@@ -37,8 +37,8 @@ import deedsProject from "./projects/deedsProject.png";
 import deedTracker1 from "./projects/deedTracker1.png";
 import glowingLettersSCSS from "./projects/glowingLettersSCSS.png";
 import goldenRatioArt from "./projects/goldenRatioArt.png";
-import JSTicTacToeReact1 from "./projects/JSTicTacToeReact1.png";
-import JSTicTacToeReact2 from "./projects/JSTicTacToeReact2.png";
+import jsTicTacToeReact1 from "./projects/jsTicTacToeReact1.png";
+import jsTicTacToeReact2 from "./projects/jsTicTacToeReact2.png";
 import reactBoat from "./projects/ReactBoat.png";
 import reactBoat2 from "./projects/ReactBoat2.png";
 import reactCarSpeedometer from "./projects/ReactCarSpeedometer.png";
@@ -98,8 +98,8 @@ export {
   deedTracker1,
   glowingLettersSCSS,
   goldenRatioArt,
-  JSTicTacToeReact1,
-  JSTicTacToeReact2,
+  jsTicTacToeReact1,
+  jsTicTacToeReact2,
   reactBoat,
   reactBoat2,
   reactCarSpeedometer,

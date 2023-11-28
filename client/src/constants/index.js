@@ -49,8 +49,8 @@ import {
   deedTracker1,
   glowingLettersSCSS,
   goldenRatioArt,
-  JSTicTacToeReact1,
-  JSTicTacToeReact2,
+  jsTicTacToeReact1,
+  jsTicTacToeReact2,
   reactBoat,
   reactBoat2,
   reactCarSpeedometer,
@@ -566,7 +566,7 @@ const projects = [
       "https://github.com/Rami24t/Azure-OpenAI-Chat-Completion-Web-App",
   },
   {
-    name: "Other Projects",
+    name: "Others",
     description:
       "Other projects can be found on my GitHub profile. They include a live BitCoin currency converter, a react Car and a react Boat speedometers' simulations, a CLI cashier return solution, handcrafted CSS illustrations and animations, artistic pages, websites' coding challenges, web development exercises, JavaScript challenges and tests, and more.",
     tags: [
@@ -627,8 +627,8 @@ const projects = [
       deedTracker1,
       glowingLettersSCSS,
       goldenRatioArt,
-      JSTicTacToeReact1,
-      JSTicTacToeReact2,
+      jsTicTacToeReact1,
+      jsTicTacToeReact2,
       reactBoat,
       reactBoat2,
       reactCarSpeedometer,
