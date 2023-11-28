@@ -27,17 +27,19 @@ export default function ComputerCanvas() {
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      style={{ pointerEvents: isMobile ? "none" : "" }}
     >
       <Suspense fallback={<Spinner size={10} darkMode={true} />}>
         <OrbitControls
           enableZoom={false}
           enablePan={false}
+          enableRotate={!isMobile}
           maxPolarAngle={Math.PI / 1.9}
           minPolarAngle={Math.PI / 2.1}
         />
         <ComputerMesh isMobile={isMobile} />
       </Suspense>
-      <Preload all />
+      {/* <Preload all /> */}
     </Canvas>
   );
 }
