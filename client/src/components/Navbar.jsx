@@ -26,7 +26,7 @@ const Navbar = ({ sendMail }) => {
 
   return (
     <nav
-      className={`${tw.paddingX} w-full flex items-center py-3 sm:py-4 fixed top-0 z-20 bg-primary`}
+      className={`${tw.paddingX} w-full flex items-center py-3 sm:py-4 fixed top-0 z-20 ${scrolled ? "bg-primary" : "bg-black"}`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
