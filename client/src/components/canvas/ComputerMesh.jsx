@@ -32,6 +32,12 @@ export const ComputerMesh = ({ isMobile }) => {
     };
   }, [scale]);
 
+  const modelPosition =
+    window.innerHeight < 680
+      ? [0 + 2 * numToZero, -0.45 + numToZero, -8 - 6 * numToZero]
+      : isMobile
+      ? [-0.8 + 2 * numToZero, -3 + numToZero, -2.1 - 6 * numToZero]
+      : [0 + 2 * numToZero, -3.25 + numToZero, -1.5 - 2 * numToZero];
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => {
@@ -49,11 +55,7 @@ export const ComputerMesh = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? scale - 0.04 : scale}
-        position={
-          isMobile
-            ? [-0.8 + 2 * numToZero, -3 + numToZero, -2.1 - 6 * numToZero]
-            : [0 + 2 * numToZero, -3.25 + numToZero, -1.5 - 2 * numToZero]
-        }
+        position={modelPosition}
         // rotation={[-0.009, -0.2, -0.15 + scrollPosition * 0.0005]}
         rotation={[-0.009, -0.2 + numToZero / 2, scrollPosition * 0.0005]}
       />
