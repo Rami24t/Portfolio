@@ -129,10 +129,10 @@ const services = [
     title: "MongoDB",
     icon: mongodb,
   },
-  {
-    title: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   title: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     title: "Git",
     icon: git,
