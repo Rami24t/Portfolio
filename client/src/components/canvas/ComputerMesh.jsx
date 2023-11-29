@@ -2,7 +2,8 @@ import { useRef, useState, useEffect } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export const ComputerMesh = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf", true);
+  // const computer = useGLTF("./desktop_pc/scene.gltf", true);
+  const computer = useGLTF("./pc2/scene.glb", true)
   const mesh = useRef();
   // Set up state for the hovered and active state
   const [hovered, setHover] = useState(false);
@@ -49,7 +50,7 @@ export const ComputerMesh = ({ isMobile }) => {
         scale={isMobile ? scale - 0.04 : scale}
         position={
           isMobile
-            ? [0 + 2 * numToZero, -3 + numToZero, -2.2 - 6 * numToZero]
+            ? [-0.8  + 2 * numToZero, -3 + numToZero, -2.1 - 6 * numToZero]
             : [0 + 2 * numToZero, -3.25 + numToZero, -1.5 - 2 * numToZero]
         }
         // rotation={[-0.009, -0.2, -0.15 + scrollPosition * 0.0005]}

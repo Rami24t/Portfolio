@@ -33,8 +33,8 @@ const Hero = () => {
             JavaScript <span className="text-secondary">software</span>{" "}
             solutions,
             <br className="md:block hidden" /> dynamic{" "}
-            <span className="text-secondary">Web Applications</span>, and
-            responsive <span className="text-secondary">user interfaces</span>.
+            <span className="text-secondary">Web Applications</span>, and 
+             responsive <span className="text-secondary"> UIs</span>.
           </p>
         </div>
       </div>

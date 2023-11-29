@@ -25,7 +25,7 @@ export default function ComputerCanvas() {
       frameloop="demand"
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [20, 3, 5], fov: 24 }}
       gl={{ preserveDrawingBuffer: true }}
       style={{ pointerEvents: isMobile ? "none" : "" }}
     >
@@ -33,7 +33,7 @@ export default function ComputerCanvas() {
         <OrbitControls
           enableZoom={false}
           enablePan={false}
-          enableRotate={!isMobile}
+          enableRotate={false}
           maxPolarAngle={Math.PI / 1.9}
           minPolarAngle={Math.PI / 2.1}
         />

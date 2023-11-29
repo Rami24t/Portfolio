@@ -536,7 +536,7 @@ const projects = [
       "https://github.com/Rami24t/React-JS-TicTacToe-Revisted-Session",
   },
   {
-    name: "Open AI Chat",
+    name: "Open AI Chat Sim",
     description:
       "Azure-OpenAI-Chat-Completion-Web-App Chat App Adv. Live Demo. A chatbot that can chat with you about anything you want. It can be powered by the Azure Open AI GPT-3.5 turbo API.",
     tags: [
@@ -608,6 +608,10 @@ const projects = [
       },
       {
         name: "SASS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SCSS",
         color: "pink-text-gradient",
       },
       {
