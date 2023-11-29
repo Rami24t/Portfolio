@@ -59,6 +59,9 @@ import reactjs from "./tech/reactjs.png";
 import nodejs from "./tech/nodejs.png";
 import mongodb from "./tech/mongodb.png";
 import tailwind from "./tech/tailwind.png";
+import vscode from "./tech/vscode.png";
+import npm from "./tech/npm.png";
+import scss from "./tech/scss.png";
 import git from "./tech/git.png";
 import threejs from "./tech/threejs.svg";
 
@@ -113,6 +116,9 @@ export {
   github,
   css,
   git,
+  vscode,
+  npm,
+  scss,
   html,
   javascript,
   mongodb,
