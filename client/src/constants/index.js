@@ -3,7 +3,7 @@ import {
   // backend,
   web,
   javascript,
-  typescript,
+  // typescript,
   html,
   css,
   reactjs,
@@ -93,10 +93,10 @@ const services = [
     title: "JavaScript Developer",
     icon: javascript,
   },
-  {
-    title: "Backend Developer",
-    icon: nodejs,
-  },
+  // {
+  //   title: "Backend Developer",
+  //   icon: nodejs,
+  // },
   {
     title: "Fullstack Web Developer",
     icon: mobile,

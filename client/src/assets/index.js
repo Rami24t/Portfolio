@@ -45,7 +45,7 @@ import reactCarSpeedometer from "./projects/ReactCarSpeedometer.png";
 import songPlayerFlex from "./projects/SongPlayerFlex.png";
 import secretUnfoldsAnim from "./projects/secretUnfoldsAnim.png";
 import portfolio3d from "./projects/portfolio3d.jpg";
-import logo from "/logo2-no-background.svg";
+import logo from "/logo3-color.png";
 import backend from "./other/backend.png";
 import creator from "./other/creator.png";
 import mobile from "./other/mobile.png";
@@ -64,7 +64,8 @@ import npm from "./tech/npm.png";
 import scss from "./tech/scss.png";
 import git from "./tech/git.png";
 import threejs from "./tech/threejs.svg";
-
+import ramiPC from "./pc2/scene.glb";
+import planet from "./planet/scene.gltf";
 
 export {
   logo,
@@ -133,4 +134,6 @@ export {
   inosoft,
   alfatraining,
   aou,
+  ramiPC,
+  planet,
 };
