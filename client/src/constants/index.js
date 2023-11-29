@@ -10,7 +10,10 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  vscode,
   git,
+  npm,
+  scss,
   aou,
   dci,
   fcc,
@@ -57,6 +60,7 @@ import {
   songPlayerFlex,
   secretUnfoldsAnim,
   portfolio3d,
+  mobile,
   // threejs,
   // inosoft,
 } from "../assets";
@@ -93,44 +97,64 @@ const services = [
     title: "Backend Developer",
     icon: nodejs,
   },
-];
-
-const technologies = [
   {
-    name: "HTML 5",
+    title: "Fullstack Web Developer",
+    icon: mobile,
+  },
+  {
+    title: "HTML 5",
     icon: html,
   },
   {
-    name: "CSS 3",
+    title: "CSS 3",
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    title: "Tailwind CSS",
+    icon: tailwind,
   },
   {
-    name: "TypeScript",
+    title: "SCSS",
+    icon: scss,
+  },
+  {
+    title: "Node.js",
+    icon: nodejs,
+  },
+  {
+    title: "Express.js",
+    icon: nodejs,
+  },
+  {
+    title: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    title: "TypeScript",
     icon: typescript,
   },
+  {
+    title: "Git",
+    icon: git,
+  },
+  {
+    title: "Visual Studio Code",
+    icon: vscode,
+  },
+  {
+    title: "node package manager",
+    icon: npm,
+  },
+];
+
+const technologies = [
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Git",
-    icon: git,
   },
 ];
 
