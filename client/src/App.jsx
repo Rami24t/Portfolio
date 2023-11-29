@@ -56,7 +56,9 @@ function App() {
   // fetchClientInfo();
   // }, []);
   // console.log(ipInfo);
-  const [isMobile, setMobile] = useState(window.innerWidth <= 500 || window.innerHeight <= 500);
+  const [isMobile, setMobile] = useState(
+    window.innerWidth <= 500 || window.innerHeight <= 500
+  );
   const handleWindowSizeChange = () => {
     setMobile(window.innerWidth <= 500 || window.innerHeight <= 500);
   };
