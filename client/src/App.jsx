@@ -56,16 +56,14 @@ function App() {
   // fetchClientInfo();
   // }, []);
   // console.log(ipInfo);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setMobile] = useState(window.innerWidth <= 500);
+  const handleWindowSizeChange = () => {
+    setMobile(window.innerWidth <= 500);
+  };
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-    setIsMobile(mediaQuery.matches);
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
-    };
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    window.addEventListener("resize", handleWindowSizeChange);
     return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+      window.removeEventListener("resize", handleWindowSizeChange);
     };
   }, []);
 
@@ -76,7 +74,7 @@ function App() {
           <Navbar sendMail={sendMail} />
           <Hero isMobile={isMobile} />
         </div>
-        <About />
+        <About isMobile={isMobile} />
         <Career />
         {!isMobile ? <Tech /> : null}
         <Projects />
