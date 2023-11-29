@@ -664,7 +664,7 @@ const projects = [
       secretUnfoldsAnim,
       portfolio3d,
     ],
-    source_code_link: "github.com/Rami24t",
+    source_code_link: "https://github.com/Rami24t",
   },
 ];
 

@@ -1,9 +1,9 @@
-import aou from "./institute/aou.png";
-import alfatraining from "./institute/alfatraining.png";
-import dci from "./institute/dci.svg";
-import fcc from "./institute/fcc.jpg";
+import aou from "./institutions/aou.png";
+import alfatraining from "./institutions/alfatraining.png";
+import dci from "./institutions/dci.svg";
+import fcc from "./institutions/fcc.jpg";
 import alkis from "./other/alkis.jpg";
-// import inosoft from "./institute/inosoft.png";
+// import inosoft from "./institutions/inosoft.png";
 import lettersOnFire from "./projects/LettersOnFire_CL-guessing-game/lof2.png";
 import lettersOnFire2 from "./projects/LettersOnFire_CL-guessing-game/lof3.png";
 import sM1 from "./projects/SM/SM2.png";
@@ -51,19 +51,20 @@ import creator from "./other/creator.png";
 import mobile from "./other/mobile.png";
 import web from "./other/web.png";
 import github from "./other/github.png";
-import css from "./tech/css.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import typescript from "./tech/typescript.png";
-import reactjs from "./tech/reactjs.png";
-import nodejs from "./tech/nodejs.png";
-import mongodb from "./tech/mongodb.png";
-import tailwind from "./tech/tailwind.png";
-import vscode from "./tech/vscode.png";
-import npm from "./tech/npm.png";
-import scss from "./tech/scss.png";
-import git from "./tech/git.png";
-import threejs from "./tech/threejs.svg";
+import css from "./techs/css.png";
+import html from "./techs/html.png";
+import javascript from "./techs/javascript.png";
+import typescript from "./techs/typescript.png";
+import reactjs from "./techs/reactjs.png";
+import nodejs from "./techs/nodejs.png";
+import mongodb from "./techs/mongodb.png";
+import tailwind from "./techs/tailwind.png";
+import vscode from "./techs/vscode.png";
+import npm from "./techs/npm.png";
+import scss from "./techs/scss.png";
+import git from "./techs/git.png";
+import threejs from "./techs/threejs.svg";
+// import logo3 from "./logo3-no-bg.svg";
 // import ramiPC from "./pc2/scene.glb";
 // import planet from "./planet/scene.gltf";
 
@@ -136,4 +137,5 @@ export {
   aou,
   // ramiPC,
   // planet,
+  // logo3,
 };
