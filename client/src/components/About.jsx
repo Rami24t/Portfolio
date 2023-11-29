@@ -8,7 +8,6 @@ import { ServiceCard } from "./ServiceCard";
 import { DesktopServiceCard } from "./DesktopServiceCard";
 
 const About = ({ isMobile }) => {
-  alert(isMobile);
   return (
     <>
       <motion.div variants={textVariant()}>

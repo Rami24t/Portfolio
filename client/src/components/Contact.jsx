@@ -57,7 +57,7 @@ export const Contact = SectionWrapper(() => {
           setLoading(false);
           console.error(error);
 
-          alert("Oops, something went wrong. Please try again.");
+          alert("Something went wrong. :( Please try again.");
         }
       );
   };
