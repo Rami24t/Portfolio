@@ -3,7 +3,7 @@ import alfatraining from "./institute/alfatraining.png";
 import dci from "./institute/dci.svg";
 import fcc from "./institute/fcc.jpg";
 import alkis from "./other/alkis.jpg";
-import inosoft from "./institute/inosoft.png";
+// import inosoft from "./institute/inosoft.png";
 import lettersOnFire from "./projects/LettersOnFire_CL-guessing-game/lof2.png";
 import lettersOnFire2 from "./projects/LettersOnFire_CL-guessing-game/lof3.png";
 import sM1 from "./projects/SM/SM2.png";
@@ -131,7 +131,7 @@ export {
   dci,
   fcc,
   alkis,
-  inosoft,
+  // inosoft,
   alfatraining,
   aou,
   ramiPC,
