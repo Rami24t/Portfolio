@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import {
   Navbar,
@@ -55,17 +56,29 @@ function App() {
   // fetchClientInfo();
   // }, []);
   // console.log(ipInfo);
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    setIsMobile(mediaQuery.matches);
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
 
   return (
     <Router>
       <div className="relative z-0 bg-black">
         <div className="bg-1 bg-cover bg-center bg-no-repeat">
           <Navbar sendMail={sendMail} />
-          <Hero />
+          <Hero isMobile={isMobile} />
         </div>
         <About />
         <Career />
-        <Tech />
+        {!isMobile ? <Tech /> : null}
         <Projects />
         <Feedback />
         <div className="relative z-0">

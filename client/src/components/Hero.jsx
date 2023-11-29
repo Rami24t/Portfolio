@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import tw from "../tw-styles";
 import { ComputerCanvas } from "./canvas";
 
-const Hero = () => {
+const Hero = ({isMobile}) => {
   const greeting = () => {
     const time = new Date().getHours();
     if (time > 3 && time < 12) {
@@ -38,7 +38,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputerCanvas />
+      <ComputerCanvas isMobile={isMobile} />
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

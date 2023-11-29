@@ -5,21 +5,8 @@ import { ComputerMesh } from "./ComputerMesh";
 
 import Spinner from "../Spinner";
 
-export default function ComputerCanvas() {
+export default function ComputerCanvas({ isMobile }) {
   // set and listen to media query
-  const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-    setIsMobile(mediaQuery.matches);
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
-    };
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
-    return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
-  }, []);
-
   return (
     <Canvas
       frameloop="demand"
