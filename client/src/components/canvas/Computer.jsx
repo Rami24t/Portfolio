@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useState } from "react";
+import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload } from "@react-three/drei";
 import { ComputerMesh } from "./ComputerMesh";
@@ -6,7 +6,6 @@ import { ComputerMesh } from "./ComputerMesh";
 import Spinner from "../Spinner";
 
 export default function ComputerCanvas({ isMobile }) {
-  // set and listen to media query
   return (
     <Canvas
       frameloop="demand"
@@ -26,7 +25,7 @@ export default function ComputerCanvas({ isMobile }) {
         />
         <ComputerMesh isMobile={isMobile} />
       </Suspense>
-      {/* <Preload all /> */}
+      <Preload all />
     </Canvas>
   );
 }
