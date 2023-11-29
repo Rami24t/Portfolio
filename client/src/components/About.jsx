@@ -5,8 +5,10 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 import tw from "../tw-styles";
 import { ServiceCard } from "./ServiceCard";
+import { DesktopServiceCard } from "./DesktopServiceCard";
 
-const About = () => {
+const About = ({ isMobile }) => {
+  alert(isMobile);
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -28,7 +30,18 @@ const About = () => {
 
       <div className="mt-20 flex flex-wrap justify-center items-center gap-10">
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
+          isMobile ? (            
+          <ServiceCard
+            key={service.title}
+            {...service}
+          />
+          ) : (
+            <DesktopServiceCard
+              key={service.title}
+              index={index}
+              {...service}
+            />
+          )
         ))}
       </div>
     </>
