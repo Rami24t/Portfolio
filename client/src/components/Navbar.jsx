@@ -26,11 +26,7 @@ const Navbar = ({ sendMail }) => {
 
   return (
     <nav
-      className={`${
-        tw.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
-      }`}
+      className={`${tw.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -42,7 +38,7 @@ const Navbar = ({ sendMail }) => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+          <p className={`text-white text-2xl transition-transform ${scrolled ? "scale-75 -translate-x-12" : ""} font-bold cursor-pointer flex`}>
             <span className="logo text-slate-200"> Rami Al-Saadi &nbsp; </span>
             <span className="md:block hidden"> &nbsp; Web Developer </span>
           </p>
