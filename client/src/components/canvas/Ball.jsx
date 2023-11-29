@@ -10,7 +10,14 @@ const BallCanvas = ({ icon }) => {
     // dpr={[1, 2]}
     // gl={{ preserveDrawingBuffer: true }}
     >
-      <OrbitControls enableZoom={false} />
+      <OrbitControls
+       enableZoom={false}
+       enablePan={false}
+       maxAzimuthAngle={Math.PI/6}
+        minAzimuthAngle={-Math.PI/6}
+        maxPolarAngle={Math.PI / 1.6}
+        minPolarAngle={Math.PI / 2.4}
+        />
       <Ball imgUrl={icon} />
     </Canvas>
   );
