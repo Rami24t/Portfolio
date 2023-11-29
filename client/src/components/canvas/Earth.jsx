@@ -1,10 +1,10 @@
 // import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-import planet from "../../assets/planet/scene.gltf";
+// import planet from "../../assets/planet/scene.gltf";
 
 const EarthPrimitive = () => {
-  const earth = useGLTF(planet);
+  const earth = useGLTF("./media/3d/planet/scene.gltf");
 
   return (
     // eslint-disable-next-line react/no-unknown-property

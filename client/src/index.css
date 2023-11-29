@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Yellowtail&family=Yeseva+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,9 +11,11 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
-html, body {
-font-family: 'Nunito', sans-serif;
-background-color: #000000;
+
+html,
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #000000;
 }
 
 h1,
@@ -22,7 +25,8 @@ h4 {
   filter: blur(0.38px);
   font-family: 'Yeseva One', cursive;
 }
-.logo{
+
+.logo {
   font-family: 'Yellowtail', cursive !important;
 }
 

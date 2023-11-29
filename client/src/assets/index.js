@@ -64,8 +64,8 @@ import npm from "./tech/npm.png";
 import scss from "./tech/scss.png";
 import git from "./tech/git.png";
 import threejs from "./tech/threejs.svg";
-import ramiPC from "./pc2/scene.glb";
-import planet from "./planet/scene.gltf";
+// import ramiPC from "./pc2/scene.glb";
+// import planet from "./planet/scene.gltf";
 
 export {
   logo,
@@ -134,6 +134,6 @@ export {
   // inosoft,
   alfatraining,
   aou,
-  ramiPC,
-  planet,
+  // ramiPC,
+  // planet,
 };

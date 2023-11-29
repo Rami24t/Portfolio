@@ -1,10 +1,10 @@
 import { useRef, useState, useEffect } from "react";
 import { useGLTF } from "@react-three/drei";
-import { ramiPC } from "../../assets";
+// import { ramiPC } from "../../assets";
 
 export const ComputerMesh = ({ isMobile }) => {
   // const computer = useGLTF("./desktop_pc/scene.gltf", true);
-  const computer = useGLTF(ramiPC, true);
+  const computer = useGLTF("./media/3d/pc2/scene.glb", true);
   const mesh = useRef();
   // Set up state for the hovered and active state
   const [hovered, setHover] = useState(false);
