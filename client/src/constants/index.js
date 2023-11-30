@@ -261,7 +261,7 @@ const projects = [
       },
       {
         name: "Tailwind",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "PWA",
@@ -269,11 +269,11 @@ const projects = [
       },
       {
         name: "local-storage",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "SCSS",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     images: [gsl2, gsl],
@@ -328,11 +328,11 @@ const projects = [
       },
       {
         name: "MDB",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "MUI",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     images: [restaurant1, cat],
@@ -349,11 +349,11 @@ const projects = [
       },
       {
         name: "HTML",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "UI/UX",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     images: [cssillustrator1, cssillustrator2],
@@ -367,19 +367,19 @@ const projects = [
     tags: [
       {
         name: "HTML5",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "CSS3",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "JQuery",
+        name: "JavaScript",
         color: "green-text-gradient",
+      },
+      {
+        name: "JQuery",
+        color: "blue-text-gradient",
       },
     ],
     images: [sM1, sM2],
@@ -396,7 +396,7 @@ const projects = [
       },
       {
         name: "MongoDB",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "Node.js",
@@ -404,7 +404,7 @@ const projects = [
       },
       {
         name: "Express.js",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     images: [edmundo1, edmundo2],
@@ -417,19 +417,19 @@ const projects = [
     tags: [
       {
         name: "HTML5",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "CSS3",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "Tailwind CSS",
+        name: "JavaScript",
         color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
       },
     ],
     images: [socialUI1, socialUI2],
@@ -443,15 +443,15 @@ const projects = [
     tags: [
       {
         name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
         color: "green-text-gradient",
       },
       {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
         name: "CSS",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     images: [bubbles, bubbles2],
@@ -464,7 +464,7 @@ const projects = [
     tags: [
       {
         name: "OOP",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "Software Engineering",
@@ -472,7 +472,7 @@ const projects = [
       },
       {
         name: "JavaScript",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "Node.js",
@@ -480,7 +480,7 @@ const projects = [
       },
       {
         name: "CLI",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     images: [lettersOnFire, lettersOnFire2],
@@ -494,15 +494,15 @@ const projects = [
     tags: [
       {
         name: "RESTful API consumption",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Alan AI",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Alan AI",
         color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
       },
       {
         name: "React",
@@ -519,15 +519,15 @@ const projects = [
     tags: [
       {
         name: "Vanilla JavaScript",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "HTML",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "CSS",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     images: [gnr1, gnr2],
@@ -548,11 +548,11 @@ const projects = [
       },
       {
         name: "CSS",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "useReducer",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     images: [ttt1, ttt2],
@@ -566,7 +566,7 @@ const projects = [
     tags: [
       {
         name: "Azure Open AI GPT-3.5 turbo API",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "JavaScript",
@@ -574,15 +574,15 @@ const projects = [
       },
       {
         name: "CSS",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "HTML",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "React",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     images: [aoa1, aoa2],
@@ -600,11 +600,11 @@ const projects = [
       },
       {
         name: "CSS3",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "HTML5",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "React",
@@ -628,23 +628,23 @@ const projects = [
       },
       {
         name: "Bootstrap",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "SASS",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "SCSS",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "React Router",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "Vite",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     images: [
