@@ -1,5 +1,5 @@
 # My-Portfolio
-My Dev Portfolio built using React JS, Vite, Tailwind CSS, Emailjs, Framer Motion, GIMP image editor, React Icons, React Three Fiber, and ThreeJS, amongst other techs, while keeping the code Reusable and Scalable using HO components and other best practices standards, and ensuring full-responsiveness across all screens and keeping performance good using suspense and preload.
+My Dev Portfolio built using React JS, Vite, Tailwind CSS, CSS, JS, HTML, Emailjs, Framer Motion, GIMP image editor, React Icons, React Three Fiber, and ThreeJS, amongst other techs, while keeping the code Reusable and Scalable using HO components and other best practices standards, and ensuring full-responsiveness across all screens and keeping performance good using suspense and preload.
 
 ### Snapshots
 
