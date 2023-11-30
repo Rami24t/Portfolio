@@ -400,7 +400,7 @@ const projects = [
       },
       {
         name: "Node.js",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "Express.js",
@@ -476,11 +476,11 @@ const projects = [
       },
       {
         name: "Node.js",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "CLI",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     images: [lettersOnFire, lettersOnFire2],
