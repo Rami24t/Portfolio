@@ -20,13 +20,17 @@ const Navbar = ({ sendMail }) => {
         setScrolled(false);
       }
     };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <nav
-      className={`${tw.paddingX} w-full flex items-center py-3 sm:py-4 fixed top-0 z-20 ${scrolled ? "bg-primary" : "bg-black"}`}
+      className={`${
+        tw.paddingX
+      } w-full flex items-center py-3 sm:py-4 fixed top-0 z-20 ${
+        scrolled ? "bg-primary" : "bg-black"
+      }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -37,7 +41,12 @@ const Navbar = ({ sendMail }) => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-10 h-10 rounded-full" />
+          <img
+            src={logo}
+            alt="logo"
+            loading="lazy"
+            className="w-10 h-10 rounded-full"
+          />
           <p
             className={`text-white text-xl transition-transform ${
               scrolled ? "scale-90 -translate-x-4" : ""
