@@ -6,7 +6,7 @@ import { ComputerMesh } from "./ComputerMesh";
 import Spinner from "../Spinner";
 
 export default function ComputerCanvas({ isMobile }) {
-  return (
+  return window.innerHeight < 600 ? null : (
     <Canvas
       frameloop="demand"
       shadows
