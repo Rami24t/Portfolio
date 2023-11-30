@@ -22,7 +22,7 @@ export default {
       },
       backgroundImage: {
         "1":
-          "url('/src/assets/other/blue-wavy-light-streak-background.jpg')",
+          "url('/src/assets/other/blue-wavy-light-streak-background.webp')",
       },
     },
   },

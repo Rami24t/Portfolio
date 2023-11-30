@@ -237,7 +237,7 @@ const testimonials = [
   //   name: "Chris Brown",
   //   designation: "COO",
   //   company: "DEF Corp",
-  //   image1: "https://randomuser.me/api/portraits/men/5.jpg",
+  //   image1: "https://randomuser.me/api/portraits/men/5.webp",
   // },
   // {
   //   testimonial:
@@ -245,7 +245,7 @@ const testimonials = [
   //   name: "Lisa Wang",
   //   designation: "CTO",
   //   company: "456 Enterprises",
-  //   image1: "https://randomuser.me/api/portraits/women/6.jpg",
+  //   image1: "https://randomuser.me/api/portraits/women/6.webp",
   // },
 ];
 
