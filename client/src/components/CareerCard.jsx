@@ -16,6 +16,7 @@ export const CareerCard = ({ career }) => {
             src={career.icon}
             alt={career.company_name}
             className="w-[60%] h-[60%] object-contain"
+            loading="lazy"
           />
         </div>
       }

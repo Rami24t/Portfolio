@@ -38,6 +38,7 @@ export const ProjectCard = ({
           src={images[srcIndex]}
           alt="project images"
           className="w-full h-full object-cover rounded-lg"
+          loading="lazy"
         />
 
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -49,6 +50,7 @@ export const ProjectCard = ({
               src={github}
               alt="source code"
               className="w-1/2 h-1/2 object-contain"
+              loading="lazy"
             />
           </div>
         </div>
