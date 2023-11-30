@@ -9,7 +9,8 @@ My Dev Portfolio built using React JS, Vite, Tailwind CSS, Emailjs, Framer Motio
 
 ### Live Demo Link 
 
-[ramidev.tech](https://www.ramidev.tech)
+link1: [ramidev.tech](https://www.ramidev.tech)
+link2: [www.ramidev.tech](https://rami-al-saadi.vercel.app/)
 
 #### Credits
 - "Gaming Desktop PC" model (https://skfb.ly/or88C) by Yolala1232 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
