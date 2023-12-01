@@ -7,10 +7,13 @@ import Career from "./Career";
 import { Projects } from "./Projects";
 import Feedback from "./Feedback";
 import { Contact } from "./Contact";
+import Footer from "./Footer";
 import Spinner from "./Spinner";
 
 export {
   Navbar,
+  Spinner,
+  ComputerCanvas,
   Hero,
   About,
   Tech,
@@ -18,8 +21,7 @@ export {
   Projects,
   Feedback,
   Contact,
-  Spinner,
   EarthCanvas,
+  Footer,
   BallCanvas,
-  ComputerCanvas,
 };

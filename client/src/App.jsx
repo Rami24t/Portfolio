@@ -9,6 +9,7 @@ import {
   Projects,
   Feedback,
   Contact,
+  Footer,
 } from "./components";
 
 function App() {
@@ -86,6 +87,7 @@ function App() {
           <div></div>
         </div>
       </div>
+      <Footer />
     </Router>
   );
 }
