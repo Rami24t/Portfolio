@@ -2,7 +2,7 @@ import { memo } from "react";
 
 import { CopyrightDisclaimer, Icons } from "./components";
 
-function BottomFooter({ darkMode=true }) {
+function BottomFooter({ darkMode = true }) {
   const copyright = {
     year: "2023",
     author: "Rami Al-saadi",
@@ -21,7 +21,7 @@ function BottomFooter({ darkMode=true }) {
         link="https://rami-al-saadi.vercel.app/"
         darkMode={darkMode}
       />
-      <Icons darkMode={darkMode}/>
+      <Icons darkMode={darkMode} />
     </div>
   );
 }
