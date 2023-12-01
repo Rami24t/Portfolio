@@ -18,7 +18,7 @@ function BottomFooter({ darkMode=true }) {
         year="2023"
         author={copyright.author}
         rights={copyright.rights}
-        link="https://www.linkedin.com/in/rami-al-saadi-16a14223a/"
+        link="https://rami-al-saadi.vercel.app/"
         darkMode={darkMode}
       />
       <Icons darkMode={darkMode}/>
