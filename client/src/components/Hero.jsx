@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import tw from "../tw-styles";
 import { ComputerCanvas } from "./canvas";
 
-const Hero = ({isMobile}) => {
+const Hero = ({ isMobile }) => {
   const greeting = () => {
     const time = new Date().getHours();
     if (time > 3 && time < 12) {
@@ -17,11 +17,11 @@ const Hero = ({isMobile}) => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${tw.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${tw.paddingX} flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full filter blur-sm bg-violet-600" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient  blur-sm" />
+          <div className="w-1 sm:h-80 h-40 violet-gradient blur-sm" />
         </div>
 
         <div>
@@ -33,8 +33,8 @@ const Hero = ({isMobile}) => {
             JavaScript <span className="text-secondary">software</span>{" "}
             solutions,
             <br className="md:block hidden" /> dynamic{" "}
-            <span className="text-secondary">Web Applications</span>, and 
-             responsive <span className="text-secondary"> UIs</span>.
+            <span className="text-secondary">Web Applications</span>, and
+            responsive <span className="text-secondary"> UIs</span>.
           </p>
         </div>
       </div>

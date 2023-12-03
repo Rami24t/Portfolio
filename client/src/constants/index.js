@@ -270,7 +270,7 @@ const projects = [
     tags: [
       {
         name: "React",
-        color: "blue-text-gradient",
+        color: "turquoise-text-gradient",
       },
       {
         name: "Tailwind",
@@ -300,7 +300,7 @@ const projects = [
     tags: [
       {
         name: "React",
-        color: "blue-text-gradient",
+        color: "turquoise-text-gradient",
       },
       {
         name: "RESTful APIs",
@@ -329,7 +329,7 @@ const projects = [
     tags: [
       {
         name: "React",
-        color: "blue-text-gradient",
+        color: "turquoise-text-gradient",
       },
       {
         name: "API consumption",
@@ -405,7 +405,7 @@ const projects = [
     tags: [
       {
         name: "React",
-        color: "blue-text-gradient",
+        color: "turquoise-text-gradient",
       },
       {
         name: "MongoDB",
@@ -519,7 +519,7 @@ const projects = [
       },
       {
         name: "React",
-        color: "blue-text-gradient",
+        color: "turquoise-text-gradient",
       },
     ],
     images: [st1, st2],
@@ -553,7 +553,7 @@ const projects = [
     tags: [
       {
         name: "React",
-        color: "blue-text-gradient",
+        color: "turquoise-text-gradient",
       },
       {
         name: "JavaScript",
@@ -595,7 +595,7 @@ const projects = [
       },
       {
         name: "React",
-        color: "blue-text-gradient",
+        color: "turquoise-text-gradient",
       },
     ],
     images: [aoa1, aoa2],
@@ -621,7 +621,7 @@ const projects = [
       },
       {
         name: "React",
-        color: "blue-text-gradient",
+        color: "turquoise-text-gradient",
       },
       {
         name: "Node.js",
@@ -653,7 +653,7 @@ const projects = [
       },
       {
         name: "React Router",
-        color: "blue-text-gradient",
+        color: "turquoise-text-gradient",
       },
       {
         name: "Vite",
