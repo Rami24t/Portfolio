@@ -45,7 +45,20 @@ import reactBoat2 from "./projects/ReactBoat2.webp";
 import reactCarSpeedometer from "./projects/ReactCarSpeedometer.webp";
 import songPlayerFlex from "./projects/SongPlayerFlex.webp";
 import secretUnfoldsAnim from "./projects/secretUnfoldsAnim.webp";
+import dquotes from "./projects/2dquotes.webp";
 import portfolio3d from "./projects/portfolio3d.webp";
+import elamigo from "./projects/elamigo.webp";
+import fb from "./projects/fb.webp";
+import grid from "./projects/grid.webp";
+import grid1 from "./projects/grid1.webp";
+import inCall from "./projects/inCall.webp";
+import portfolio from "./projects/portfolio.webp";
+import quote from "./projects/quote.webp";
+import sun from "./projects/sun.webp";
+import sweety from "./projects/sweety.webp";
+import travel from "./projects/travel.webp";
+import typogr from "./projects/typogr.webp";
+import videoChat from "./projects/video-chat.webp";
 // import backend from "./other/backend.webp";
 // import creator from "./other/creator.webp";
 import mobile from "./other/mobile.webp";
@@ -110,6 +123,19 @@ export {
   reactCarSpeedometer,
   songPlayerFlex,
   secretUnfoldsAnim,
+  dquotes,
+  elamigo,
+  fb,
+  grid,
+  grid1,
+  inCall,
+  portfolio,
+  quote,
+  sun,
+  sweety,
+  travel,
+  typogr,
+  videoChat,
   portfolio3d,
   // backend,
   mobile,
