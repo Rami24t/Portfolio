@@ -44,6 +44,7 @@ import reactBoat from "./projects/ReactBoat.webp";
 import reactBoat2 from "./projects/ReactBoat2.webp";
 import reactCarSpeedometer from "./projects/ReactCarSpeedometer.webp";
 import songPlayerFlex from "./projects/SongPlayerFlex.webp";
+import scssFOL from "./projects/scssFOL.webp";
 import secretUnfoldsAnim from "./projects/secretUnfoldsAnim.webp";
 import dquotes from "./projects/2dquotes.webp";
 import portfolio3d from "./projects/portfolio3d.webp";
@@ -121,6 +122,7 @@ export {
   reactBoat,
   reactBoat2,
   reactCarSpeedometer,
+  scssFOL,
   songPlayerFlex,
   secretUnfoldsAnim,
   dquotes,
