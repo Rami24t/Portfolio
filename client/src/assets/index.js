@@ -4,7 +4,6 @@ import alfatraining from "./institutions/alfatraining.webp";
 import dci from "./institutions/dci.svg";
 import fcc from "./institutions/fcc.webp";
 import alkis from "./other/alkis.webp";
-// import inosoft from "./institutions/inosoft.webp";
 import lettersOnFire from "./projects/LettersOnFire_CL-guessing-game/lof2.webp";
 import lettersOnFire2 from "./projects/LettersOnFire_CL-guessing-game/lof3.webp";
 import sM1 from "./projects/SM/SM2.webp";
@@ -37,15 +36,15 @@ import weatherApp from "./projects/CLI_WeatherApp.webp";
 import deedsProject from "./projects/deedsProject.webp";
 import deedTracker1 from "./projects/deedTracker1.webp";
 import glowingLettersSCSS from "./projects/glowingLettersSCSS.webp";
-import goldenRatioArt from "./projects/goldenRatioArt.webp";
+// import goldenRatioArt from "./projects/goldenRatioArt.webp";
 import jsTicTacToeReact1 from "./projects/jsTicTacToeReact1.webp";
-import jsTicTacToeReact2 from "./projects/jsTicTacToeReact2.webp";
+// import jsTicTacToeReact2 from "./projects/jsTicTacToeReact2.webp";
 import reactBoat from "./projects/ReactBoat.webp";
 import reactBoat2 from "./projects/ReactBoat2.webp";
 import reactCarSpeedometer from "./projects/ReactCarSpeedometer.webp";
 import songPlayerFlex from "./projects/SongPlayerFlex.webp";
 import scssFOL from "./projects/scssFOL.webp";
-import secretUnfoldsAnim from "./projects/secretUnfoldsAnim.webp";
+import scssFOL2 from "./projects/scssFOL2.webp";
 import dquotes from "./projects/2dquotes.webp";
 import portfolio3d from "./projects/portfolio3d.webp";
 import elamigo from "./projects/elamigo.webp";
@@ -54,15 +53,14 @@ import grid from "./projects/grid.webp";
 import grid1 from "./projects/grid1.webp";
 import inCall from "./projects/inCall.webp";
 import portfolio from "./projects/portfolio.webp";
-import quote from "./projects/quote.webp";
+// import quote from "./projects/quote.webp";
 import sun from "./projects/sun.webp";
 import sweety from "./projects/sweety.webp";
 import travel from "./projects/travel.webp";
-import typogr from "./projects/typogr.webp";
 import videoChat from "./projects/video-chat.webp";
 // import backend from "./other/backend.webp";
 // import creator from "./other/creator.webp";
-import mobile from "./other/mobile.webp";
+// import mobile from "./other/mobile.webp";
 import web from "./other/web.webp";
 import github from "./other/github.webp";
 import css from "./techs/css.webp";
@@ -78,9 +76,6 @@ import npm from "./techs/npm.webp";
 import scss from "./techs/scss.webp";
 import git from "./techs/git.webp";
 // import threejs from "./techs/threejs.svg";
-// import logo3 from "./logo3-no-bg.svg";
-// import ramiPC from "./pc2/scene.glb";
-// import planet from "./planet/scene.gltf";
 
 export {
   logo,
@@ -116,15 +111,15 @@ export {
   deedsProject,
   deedTracker1,
   glowingLettersSCSS,
-  goldenRatioArt,
+  // goldenRatioArt,
   jsTicTacToeReact1,
-  jsTicTacToeReact2,
+  // jsTicTacToeReact2,
   reactBoat,
   reactBoat2,
   reactCarSpeedometer,
   scssFOL,
+  scssFOL2,
   songPlayerFlex,
-  secretUnfoldsAnim,
   dquotes,
   elamigo,
   fb,
@@ -132,15 +127,14 @@ export {
   grid1,
   inCall,
   portfolio,
-  quote,
+  // quote,
   sun,
   sweety,
   travel,
-  typogr,
   videoChat,
   portfolio3d,
+  // mobile,
   // backend,
-  mobile,
   // creator,
   web,
   github,
@@ -160,10 +154,6 @@ export {
   dci,
   fcc,
   alkis,
-  // inosoft,
   alfatraining,
   aou,
-  // ramiPC,
-  // planet,
-  // logo3,
 };
