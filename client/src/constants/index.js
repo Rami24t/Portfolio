@@ -1,7 +1,4 @@
 import {
-  // mobile,
-  // backend,
-  web,
   javascript,
   // typescript,
   html,
@@ -51,7 +48,7 @@ import {
   deedsProject,
   deedTracker1,
   glowingLettersSCSS,
-  // goldenRatioArt,
+  goldenRatioArt,
   jsTicTacToeReact1,
   // jsTicTacToeReact2,
   reactBoat,
@@ -75,6 +72,8 @@ import {
   portfolio3d,
   mobile,
   // threejs,
+  // backend,
+  web,
 } from "../assets";
 
 const navLinks = [
@@ -669,7 +668,7 @@ const projects = [
       deedsProject,
       glowingLettersSCSS,
       deedTracker1,
-      // goldenRatioArt,
+      goldenRatioArt,
       jsTicTacToeReact1,
       // jsTicTacToeReact2,
       reactBoat2,

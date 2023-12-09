@@ -36,7 +36,7 @@ import weatherApp from "./projects/CLI_WeatherApp.webp";
 import deedsProject from "./projects/deedsProject.webp";
 import deedTracker1 from "./projects/deedTracker1.webp";
 import glowingLettersSCSS from "./projects/glowingLettersSCSS.webp";
-// import goldenRatioArt from "./projects/goldenRatioArt.webp";
+import goldenRatioArt from "./projects/goldenRatioArt.webp";
 import jsTicTacToeReact1 from "./projects/jsTicTacToeReact1.webp";
 // import jsTicTacToeReact2 from "./projects/jsTicTacToeReact2.webp";
 import reactBoat from "./projects/ReactBoat.webp";
@@ -60,7 +60,7 @@ import travel from "./projects/travel.webp";
 import videoChat from "./projects/video-chat.webp";
 // import backend from "./other/backend.webp";
 // import creator from "./other/creator.webp";
-// import mobile from "./other/mobile.webp";
+import mobile from "./other/mobile.webp";
 import web from "./other/web.webp";
 import github from "./other/github.webp";
 import css from "./techs/css.webp";
@@ -111,7 +111,7 @@ export {
   deedsProject,
   deedTracker1,
   glowingLettersSCSS,
-  // goldenRatioArt,
+  goldenRatioArt,
   jsTicTacToeReact1,
   // jsTicTacToeReact2,
   reactBoat,
@@ -133,7 +133,7 @@ export {
   travel,
   videoChat,
   portfolio3d,
-  // mobile,
+  mobile,
   // backend,
   // creator,
   web,
