@@ -3,6 +3,7 @@ import aou from "./institutions/aou.webp";
 import alfatraining from "./institutions/alfatraining.webp";
 import dci from "./institutions/dci.svg";
 import fcc from "./institutions/fcc.webp";
+import transMIT from "./institutions/transMIT.webp";
 import alkis from "./other/alkis.webp";
 import lettersOnFire from "./projects/LettersOnFire_CL-guessing-game/lof2.webp";
 import lettersOnFire2 from "./projects/LettersOnFire_CL-guessing-game/lof3.webp";
@@ -156,4 +157,5 @@ export {
   alkis,
   alfatraining,
   aou,
+  transMIT,
 };

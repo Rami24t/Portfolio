@@ -14,8 +14,9 @@ import {
   aou,
   dci,
   fcc,
-  alkis,
   alfatraining,
+  transMIT,
+  alkis,
   lettersOnFire,
   lettersOnFire2,
   socialapp1,
@@ -170,19 +171,22 @@ const technologies = [
 ];
 
 const careers = [
-  // {
-  //   title: "Full stack Developer",
-  // company_name: "Inosoft",
-  // icon: inosoft,
-  //   iconBg: "#fefefe",
-  //   date: "Dec 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining 1.",
-  //     "Collaborating 2 to create high-quality products.",
-  //     "Implementing 3.",
-  //     "Participating 4 to other developers.",
-  //   ],
-  // },
+  {
+    title: "Programmer/Developer",
+  company_name: "TransMIT GmbH, Giessen",
+  icon: transMIT,
+    iconBg: "#fefefe",
+    date: "Jan 2024 - Present",
+    points: [
+      "Developing and maintaining software and web applications.",
+      "Programming, integration, migration, and testing of software.",
+      "Implementing and migration of workflow management solutions.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborating with teams to create high-quality products.",
+      "Development and maintenance of content management systems.",
+      "Implementing responsive designs and ensuring cross-browser compatibility.",
+    ],
+  },
   {
     title: "JavaScript Algorithms and Data Structures Developer",
     company_name: "freeCodeCamp.org",
