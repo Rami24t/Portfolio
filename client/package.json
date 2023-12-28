@@ -16,7 +16,6 @@
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.14.18",
     "@react-three/drei": "^9.89.0",
     "@react-three/fiber": "^8.15.11",
     "dotenv": "^16.0.3",
@@ -29,7 +28,6 @@
     "react-router-dom": "^6.20.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "sass": "^1.69.5",
     "three": "^0.153.0"
   },
   "devDependencies": {
