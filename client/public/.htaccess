@@ -1,3 +1,6 @@
+RewriteEngine on
+
+
 RewriteCond %{HTTP_HOST} ^.*ramidev\.tech$
 RewriteRule ^sitemap.xml$ sitemap-tech.xml [NC]
 
