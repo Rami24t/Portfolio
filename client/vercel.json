@@ -2,7 +2,23 @@
     "rewrites": [
         {
             "source": "/sitemap.xml",
-            "destination": "/api/sitemap-redirect"
+            "destination": "/sitemap-app.xml",
+            "condition": {
+                "pathname": "/sitemap.xml",
+                "host": "grsl.vercel.app"
+            }
+        },
+        {
+            "source": "/sitemap.xml",
+            "destination": "/sitemap-tech.xml",
+            "condition": {
+                "pathname": "/sitemap.xml",
+                "host": "gsl.ramidev.tech"
+            }
+        },
+        {
+            "source": "/sitemap.xml",
+            "destination": "/sitemap.xml"
         }
     ]
 }
