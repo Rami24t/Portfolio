@@ -1,24 +1,24 @@
 {
     "rewrites": [
         {
-            "source": "https://rami-al-saadi.vercel.app/sitemap.xml",
+            "source": "/sitemap.xml",
             "has": [
                 {
                     "type": "host",
                     "value": "rami-al-saadi.vercel.app"
                 }
             ],
-            "destination": "https://rami-al-saadi.vercel.app/sitemap-app.xml"
+            "destination": "/sitemap-app.xml"
         },
         {
-            "source": "https://www.ramidev.tech/sitemap.xml",
+            "source": "/sitemap.xml",
             "has": [
                 {
                     "type": "host",
                     "value": "www.ramidev.tech"
                 }
             ],
-            "destination": "https://www.ramidev.tech/sitemap-tech.xml"
+            "destination": "/sitemap-tech.xml"
         }
     ]
 }
