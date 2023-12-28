@@ -3,7 +3,7 @@
         {
             "source": "/sitemap.xml",
             "destination": "/sitemap-app.xml",
-            "condition": {
+            "has": {
                 "pathname": "/sitemap.xml",
                 "host": "grsl.vercel.app"
             }
@@ -11,7 +11,7 @@
         {
             "source": "/sitemap.xml",
             "destination": "/sitemap-tech.xml",
-            "condition": {
+            "has": {
                 "pathname": "/sitemap.xml",
                 "host": "gsl.ramidev.tech"
             }
