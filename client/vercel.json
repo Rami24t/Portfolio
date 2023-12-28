@@ -15,10 +15,6 @@
                 "pathname": "/sitemap.xml",
                 "host": "gsl.ramidev.tech"
             }
-        },
-        {
-            "source": "/sitemap.xml",
-            "destination": "/sitemap.xml"
         }
     ]
 }
