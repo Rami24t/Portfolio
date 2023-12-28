@@ -5,4 +5,28 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   assetsInclude: ["**/*.stl", "**/*.obj", "**/*.glb", "**/*.gltf"],
   plugins: [react()],
+  vercel: {
+    rewrites: [
+      {
+        source: "/sitemap.xml",
+        has: [
+          {
+            type: "host",
+            value: "rami-al-saadi.vercel.app",
+          },
+        ],
+        destination: "/sitemap-app.xml",
+      },
+      {
+        source: "/sitemap.xml",
+        has: [
+          {
+            type: "host",
+            value: "www.ramidev.tech",
+          },
+        ],
+        destination: "/sitemap-tech.xml",
+      },
+    ],
+  },
 });
