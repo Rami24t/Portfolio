@@ -5,6 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   assetsInclude: ["**/*.stl", "**/*.obj", "**/*.glb", "**/*.gltf"],
   plugins: [react()],
+  base: "./",
   vercel: {
     rewrites: [
       {
