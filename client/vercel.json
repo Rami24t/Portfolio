@@ -6,7 +6,7 @@
             "has": [
                 {
                     "type": "host",
-                    "value": ".vercel.app",
+                    "value": "vercel.app",
                     "endsWith": true
                 }
             ]
@@ -17,7 +17,7 @@
             "has": [
                 {
                     "type": "host",
-                    "value": ".ramidev.tech",
+                    "value": "ramidev.tech",
                     "endsWith": true
                 }
             ]
