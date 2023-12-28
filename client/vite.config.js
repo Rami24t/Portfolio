@@ -9,6 +9,10 @@ export default defineConfig({
   vercel: {
     rewrites: [
       {
+        source: "/(.*)",
+        destination: "/index.html",
+      },
+      {
         source: "/sitemap.xml",
         has: [
           {
