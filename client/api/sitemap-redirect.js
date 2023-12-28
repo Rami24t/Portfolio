@@ -1,6 +1,6 @@
 // api/sitemap-redirect.js
 
-module.exports = (req, res) => {
+export default (req, res) => {
   const host = req.headers.host || "";
   const redirectMap = {
     "ramidev.tech": "/sitemap-tech.xml",
