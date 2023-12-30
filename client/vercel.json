@@ -9,20 +9,20 @@
             "has": [
                 {
                     "type": "host",
-                    "value": "rami-al-saadi.vercel.app"
+                    "value": "www.ramidev.tech"
                 }
             ],
-            "destination": "/sitemap-app.xml"
+            "destination": "/sitemap-tech.xml"
         },
         {
             "source": "/sitemap.xml",
             "has": [
                 {
                     "type": "host",
-                    "value": "www.ramidev.tech"
+                    "value": "rami-al-saadi.vercel.app"
                 }
             ],
-            "destination": "/sitemap-tech.xml"
+            "destination": "/sitemap-app.xml"
         }
     ]
 }
