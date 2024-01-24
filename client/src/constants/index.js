@@ -173,8 +173,8 @@ const technologies = [
 const careers = [
   {
     title: "Programmer / Developer",
-  company_name: "TransMIT GmbH, Giessen",
-  icon: transMIT,
+    company_name: "TransMIT GmbH, Giessen",
+    icon: transMIT,
     iconBg: "#fefefe",
     date: "Jan 2024 - Present",
     points: [
