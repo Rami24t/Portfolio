@@ -454,7 +454,7 @@ const projects = [
   {
     name: "Bubbles",
     description:
-      "An artistic webpage with two dimensional quotes, poppable bubbles, custom-made cursor, and endlessly fresh images.",
+      "An interactive artistic webpage with two dimensional quotes, poppable bubbles, custom-made cursor, and endlessly fresh images.",
     tags: [
       {
         name: "JavaScript",

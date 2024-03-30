@@ -21,7 +21,7 @@ export const Projects = SectionWrapper(() => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         > */}
         <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          The following projects showcases my skills and career through
+          The following projects showcase my skills and career through
           practical examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
