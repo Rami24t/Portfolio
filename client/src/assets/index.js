@@ -74,6 +74,7 @@ import mongodb from "./techs/mongodb.webp";
 import tailwind from "./techs/tailwind.webp";
 import vscode from "./techs/vscode.webp";
 import npm from "./techs/npm.webp";
+import java from "./techs/java.webp";
 import scss from "./techs/scss.webp";
 import git from "./techs/git.webp";
 // import threejs from "./techs/threejs.svg";
@@ -143,6 +144,7 @@ export {
   git,
   vscode,
   npm,
+  java,
   scss,
   html,
   javascript,

@@ -10,6 +10,7 @@ import {
   vscode,
   git,
   npm,
+  java,
   scss,
   aou,
   dci,
@@ -140,6 +141,10 @@ const services = [
   {
     title: "MongoDB",
     icon: mongodb,
+  },
+  {
+    title: "Java",
+    icon: java,
   },
   // {
   //   title: "TypeScript",
