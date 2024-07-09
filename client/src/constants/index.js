@@ -184,23 +184,27 @@ const careers = [
     date: "Jan 2024 - Present",
     points: [
       "Developing and maintaining software and web applications.",
-      "Programming, integration, migration, and testing of software.",
+      "Making good use of a variety of technologies including Relational databases, TomCat Server, Maven, Java Servlets, JSP, Rest APIs, open source software, and others.",
+      "Successfully using various programming languages such as SQL, Java, Python, Groovy, JavaScript, CSS, HTML, PHP and others.",
       "Implementing and migration of workflow management solutions.",
+      "Programming, integration, migration, updating and testing of software.",
       "Participating in code reviews and providing constructive feedback to other developers.",
       "Collaborating with teams to create high-quality products.",
-      "Development and maintenance of content management systems.",
       "Implementing responsive designs and ensuring cross-browser compatibility.",
     ],
   },
   {
-    title: "JavaScript Algorithms and Data Structures Developer",
+    title: "JavaScript, Databases, and Scientific Computing Developer Courses (1000+ Hours)",
     company_name: "freeCodeCamp.org",
     icon: fcc,
     iconBg: "#fefefe",
-    date: "Juli 2023 - August 2023",
+    date: "2023 - ",
     points: [
-      "Honed JavaScript, Programming, Algorithms, and Data Structures skills and knowledge (eq 300 hours).",
-      "Built multiple projects successfully including the: Palindrome Checker, Roman Numeral Converter, Caesars Cipher, Telephone Number Validator, and Cash Register.",
+      "Honed JavaScript, Programming, Algorithms, and Data Structures skills and knowledge (400+ hours).",
+      "Gained Relational Databases development skills and knowledge (incl. SQL and PostgreSQL in addition to Bash, Git, and the Linux/Unix CL) (300 hours).",
+      "Built multiple projects successfully including the: Palindrome Checker, Roman Numeral Converter, Caesars Cipher, Telephone Number Validator, Cash Register, and the Pokémon Search App.",
+      "Successfully finished all 15 ''Relational Database'' and Bash/SQL/Git learning courses and certification projects.",
+      "Successfully completed the ''Scientific Computing with Python'' curriculum incl. 17 courses and projects acquiring scientific computing, OOP, data structures and algorithms, and data analysis and manipulation skills. (300 hours)"
     ],
   },
   {
