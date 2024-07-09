@@ -198,7 +198,7 @@ const careers = [
     company_name: "freeCodeCamp.org",
     icon: fcc,
     iconBg: "#fefefe",
-    date: "2023 - ",
+    date: "Aug 2023 - Jul 2024",
     points: [
       "Honed JavaScript, Programming, Algorithms, and Data Structures skills and knowledge (400+ hours).",
       "Gained Relational Databases development skills and knowledge (incl. SQL and PostgreSQL in addition to Bash, Git, and the Linux/Unix CL) (300 hours).",
