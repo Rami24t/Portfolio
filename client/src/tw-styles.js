@@ -5,8 +5,10 @@ const tw = {
   padding: "sm:px-16 px-6 sm:py-16 py-10",
 
   // tw: leading = css:line-height
+  h1HeadText:
+  "animate-pulse opacity-80 logo text-slate-200 text-[12px] mb-1 xs:mb-0",
   heroHeadText:
-    "font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2",
+    "font-black text-white lg:text-[60px] sm:text-[47px] xs:text-[47px] text-[37px] lg:leading-[87px] mt-[-14px]",
   heroSubText:
     "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
 
