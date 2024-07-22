@@ -9,6 +9,16 @@
             "has": [
                 {
                     "type": "host",
+                    "value": "www.ramidev.site"
+                }
+            ],
+            "destination": "/sitemap-site.xml"
+        },
+        {
+            "source": "/sitemap.xml",
+            "has": [
+                {
+                    "type": "host",
                     "value": "www.ramidev.tech"
                 }
             ],

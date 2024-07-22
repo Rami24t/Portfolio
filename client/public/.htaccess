@@ -6,3 +6,6 @@ RewriteRule ^sitemap.xml$ sitemap-tech.xml [NC]
 
 RewriteCond %{HTTP_HOST} ^.*vercel\.app$
 RewriteRule ^sitemap.xml$ sitemap-app.xml [NC]
+
+RewriteCond %{HTTP_HOST} ^.*ramidev\.site$
+RewriteRule ^sitemap.xml$ sitemap-site.xml [NC]
