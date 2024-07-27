@@ -12,7 +12,7 @@ My Dev Portfolio built using React JS, Vite, Tailwind CSS, CSS, JS, HTML, Emailj
 
 ### Live Demo Links
 
-link1: [ramidev.tech](https://www.ramidev.tech)
+link1: [ramidev.site](https://www.ramidev.site)
 
 link2: [www.ramidev.tech](https://rami-al-saadi.vercel.app/)
 
