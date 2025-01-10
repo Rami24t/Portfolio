@@ -37,6 +37,22 @@ h4 {
   display: block;
 }
 
+.animate-hover-imgs img:not(img[src='/src/assets/logo/logo.svg']),
+.animate-hover-imgs i,
+.animate-hover-imgs svg,
+.animate-hover-imgs span {
+  transition: all 1s;
+}
+
+.animate-hover-imgs img:not(img[src='/src/assets/logo/logo.svg']):hover,
+.animate-hover-imgs i:hover {
+  transform: scale(1.024) rotate(-0.4deg);
+}
+
+.animate-hover-imgs svg:hover {
+  transform: scale(1.18) rotate(-2.5deg);
+}
+
 .black-gradient {
   background: #000000;
   /* fallback for old browsers */

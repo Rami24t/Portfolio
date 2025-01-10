@@ -72,22 +72,24 @@ function App() {
 
   return (
     <Router>
-      <div className="relative z-0 bg-black">
-        <div className="bg-1 bg-cover bg-center bg-no-repeat">
-          <Navbar sendMail={sendMail} />
-          <Hero isMobile={isMobile} />
+      <div className="animate-hover-imgs">
+        <div className="relative z-0 bg-black">
+          <div className="bg-1 bg-cover bg-center bg-no-repeat">
+            <Navbar sendMail={sendMail} />
+            <Hero isMobile={isMobile} />
+          </div>
+          <About isMobile={isMobile} />
+          <Career />
+          {!isMobile ? <Tech /> : null}
+          <Projects />
+          <Feedback />
+          <div className="relative z-0">
+            <Contact />
+            <div></div>
+          </div>
         </div>
-        <About isMobile={isMobile} />
-        <Career />
-        {!isMobile ? <Tech /> : null}
-        <Projects />
-        <Feedback />
-        <div className="relative z-0">
-          <Contact />
-          <div></div>
-        </div>
+        <Footer />
       </div>
-      <Footer />
     </Router>
   );
 }
