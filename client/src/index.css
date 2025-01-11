@@ -31,10 +31,9 @@ h4 {
   font-family: 'Yellowtail', cursive !important;
 }
 
-.hash-span {
-  margin-top: -100px;
-  padding-bottom: 100px;
-  display: block;
+.vertical-timeline::before {
+  border-radius: 20% 20% 3px 3px;
+  opacity: 0.9;
 }
 
 .animate-hover-imgs img:not(img[src='/src/assets/logo/logo.svg']),
@@ -51,6 +50,12 @@ h4 {
 
 .animate-hover-imgs svg:hover {
   transform: scale(1.18) rotate(-2.5deg);
+}
+
+.hash-span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
 }
 
 .black-gradient {
