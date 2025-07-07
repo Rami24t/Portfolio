@@ -3,7 +3,7 @@ import { BsSend } from "react-icons/bs";
 
 function SendEmailIconLink({
   lastPartOfEmail = "24@gmail.com",
-  firstPartOfEmail = "alsaadi.rami",
+  firstPartOfEmail = "al.sa.ad.i.ra.mi.",
   title = "Email Me",
   darkMode,
 }) {
