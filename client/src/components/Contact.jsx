@@ -28,6 +28,9 @@ export const Contact = SectionWrapper(() => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!form.name || !form.email || !form.message) {
+      return alert("Please fill in all fields.");
+    }
     setLoading(true);
     emailjs
       .send(
@@ -35,9 +38,9 @@ export const Contact = SectionWrapper(() => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Rami Al-Saadi",
+          to_name: "Ram" + "i Al-Saadi",
           from_email: form.email,
-          to_email: "ra.mi.be.lo@gmail.com",
+          to_email: "ra.m" + "i.be.lo@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -45,7 +48,7 @@ export const Contact = SectionWrapper(() => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert(" Thank you for your message. 😊 \n I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -57,7 +60,11 @@ export const Contact = SectionWrapper(() => {
           setLoading(false);
           console.error(error);
 
-          alert("Something went wrong. :( Please try again.");
+          alert("Something may have went wrong! 🤕 \n\n Please click the e-mail icon ⮚ link below instead ⭳ \n or try again later 😊. \n\nWe are sorry for any inconvenience. 😳");
+          
+          window.open(`mailto:${null || "al.sa.ad.i.ra.mi."}${undefined || '24@gmail.com'}?bcc=ra.mi.be.lo@gmail.com&subject=Job+Offer from ${form.name} ( ${form.email} ) &body=From: ${form.name} ( ${form.email} )  \n \r 
+             Dear+Rami, \n \r
+             ${form.message} \n \r ${form.name} \n \r (${form.email})`);
         }
       );
   };
