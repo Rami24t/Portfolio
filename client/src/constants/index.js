@@ -11,6 +11,8 @@ import {
   git,
   npm,
   java,
+  spring,
+  mariadb,
   scss,
   aou,
   dci,
@@ -72,10 +74,13 @@ import {
   scssFOL2,
   videoChat,
   portfolio3d,
+  tmBon23Workflows,
+  tmBon23Workflows2,
   mobile,
   // threejs,
   // backend,
   web,
+  maven
 } from "../assets";
 
 const navLinks = [
@@ -106,13 +111,25 @@ const services = [
     title: "JavaScript Developer",
     icon: javascript,
   },
+  {
+    title: "Fullstack Web Developer",
+    icon: mobile,
+  },
   // {
   //   title: "Backend Developer",
   //   icon: nodejs,
   // },
   {
-    title: "Fullstack Web Developer",
-    icon: mobile,
+    title: "Java",
+    icon: java,
+  },
+  {
+    title: "Spring",
+    icon: spring,
+  },
+  {
+    title: "MariaDB  MySQL",
+    icon: mariadb,
   },
   {
     title: "HTML 5",
@@ -142,10 +159,6 @@ const services = [
     title: "MongoDB",
     icon: mongodb,
   },
-  {
-    title: "Java",
-    icon: java,
-  },
   // {
   //   title: "TypeScript",
   //   icon: typescript,
@@ -159,8 +172,12 @@ const services = [
     icon: vscode,
   },
   {
-    title: "node package manager",
+    title: "Node Package Manager",
     icon: npm,
+  },
+  {
+    title: "Maven Build Tool",
+    icon: maven,
   },
 ];
 
@@ -183,14 +200,14 @@ const careers = [
     iconBg: "#fefefe",
     date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining software and web applications.",
-      "Making good use of a variety of technologies including Relational databases, TomCat Server, Maven, Java Servlets, JSP, Rest APIs, open source software, and others.",
-      "Successfully using various programming languages such as SQL, Java, Python, Groovy, JavaScript, CSS, HTML, PHP and others.",
+      "Developing, maintaining and upgrading software and Full Stack Web applications and APIs.",
+      "Making good use of a variety of technologies including Spring Boot, Relational databases, TomCat Server, Maven, Java Servlets, JSP, Rest APIs, Cib7, Bonitasoft, Docker, Git, Lucee, open source software, and others.",
+      "Successfully using various programming languages such as Java, SQL, Groovy, JavaScript, CSS, HTML, Python, ColdFusionML, PHP and others.",
       "Implementing and migration of workflow management solutions.",
       "Programming, integration, migration, updating and testing of software.",
       "Participating in code reviews and providing constructive feedback to other developers.",
       "Collaborating with teams to create high-quality products.",
-      "Implementing responsive designs and ensuring cross-browser compatibility.",
+      "Implementing clean backend and responsive FE designs and ensuring cross-browser compatibility.",
     ],
   },
   {
@@ -702,6 +719,48 @@ const projects = [
       videoChat,
     ],
     source_code_link: "https://github.com/Rami24t",
+  },
+    {
+    name: "TM WorkFlOWs",
+    description:
+      "A full fledged workflow solution for the TransMIT GmbH that automates various business processes such as the process of the creation of a new center, the accounting and invoicing processes, and other web apps. It is built using Bonitasoft 2023 platform and includes custom UI/UX, Connectors, REST APIs, and integrations with third party services.",
+    tags: [
+      { name: "Groovy", color: "green-text-gradient" },
+      {
+        name: "Java",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      { name: "RESTful APIs", color: "green-text-gradient" },
+      { name: "Java", color: "green-text-gradient" },
+      { name: "PostgreSQL", color: "pink-text-gradient" },
+      { name: "MariaDB", color: "pink-text-gradient" },
+      { name: "Spring Boot", color: "green-text-gradient" },
+      { name: "TomCat Server", color: "orange-text-gradient" },
+      { name: "Maven", color: "blue-text-gradient" },
+      { name: "Docker", color: "blue-text-gradient" },
+      { name: "Linux", color: "orange-text-gradient" },
+      {name: "Ceph", color: "orange-text-gradient"},
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      { name: "Angular JS", color: "turquoise-text-gradient" },
+      { name: "Bonitasoft", color: "pink-text-gradient" },
+      {
+        name: "BPMN2",
+        color: "pink-text-gradient",
+      },
+    ],
+    images: [tmBon23Workflows, tmBon23Workflows2],
+    // source_code_link: "https://github.com/Rami24t",
   },
 ];
 

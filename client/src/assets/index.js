@@ -54,6 +54,8 @@ import grid from "./projects/grid.webp";
 import grid1 from "./projects/grid1.webp";
 import inCall from "./projects/inCall.webp";
 import portfolio from "./projects/portfolio.webp";
+import tmBon23Workflows from "./projects/TMBon23WorkFlowsMS/tmbon23workflows.png";
+import tmBon23Workflows2 from "./projects/TMBon23WorkFlowsMS/bonitasoft.svg";
 // import quote from "./projects/quote.webp";
 import sun from "./projects/sun.webp";
 import sweety from "./projects/sweety.webp";
@@ -72,11 +74,16 @@ import reactjs from "./techs/react.webp";
 import nodejs from "./techs/nodejs.webp";
 import mongodb from "./techs/mongodb.webp";
 import tailwind from "./techs/tailwind.webp";
-import vscode from "./techs/vscode.webp";
+// import vscode from "./techs/vscode.webp";
+import vscode from "./techs/vscode.svg";
 import npm from "./techs/npm.webp";
+import maven from "./techs/maven.svg";
 import java from "./techs/java.webp";
+import mariadb from "./techs/mariadb.svg";
+import spring from "./techs/spring.svg";
 import scss from "./techs/scss.webp";
 import git from "./techs/git.webp";
+
 // import threejs from "./techs/threejs.svg";
 
 export {
@@ -129,6 +136,8 @@ export {
   grid1,
   inCall,
   portfolio,
+  tmBon23Workflows,
+  tmBon23Workflows2,
   // quote,
   sun,
   sweety,
@@ -144,7 +153,10 @@ export {
   git,
   vscode,
   npm,
+  maven,
   java,
+  spring,
+  mariadb,
   scss,
   html,
   javascript,
