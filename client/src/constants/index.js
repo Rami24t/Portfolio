@@ -721,7 +721,7 @@ const projects = [
     source_code_link: "https://github.com/Rami24t",
   },
   {
-    name: "TM WorkFlOWs MS",
+    name: "TM WorkFLOWs MS",
     description: "A workflow and management solution for the TransMIT GmbH that automates various business processes such as the process of the creation of a new center, the accounting and invoicing processes, and other web apps. It is built using Bonitasoft 2023 platform and includes custom UI/UX, Connectors, REST APIs, and integrations with third party services.",
     tags: [
       { name: "Groovy", color: "green-text-gradient" },
