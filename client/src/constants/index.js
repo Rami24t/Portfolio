@@ -750,7 +750,6 @@ const projects = [
         name: "CSS",
         color: "blue-text-gradient",
       },
-      { name: "Angular JS", color: "turquoise-text-gradient" },
       { name: "Bonitasoft", color: "pink-text-gradient" },
       {
         name: "BPMN2",
