@@ -4,7 +4,7 @@ import { CopyrightDisclaimer, Icons } from "./components";
 
 function BottomFooter({ darkMode = true }) {
   const copyright = {
-    year: Date().getFullYear(),
+    year: new Date().getFullYear(),
     author: "Rami Al-saadi",
     rights: "All Rights Reserved",
   };
