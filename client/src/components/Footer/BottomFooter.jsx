@@ -15,7 +15,7 @@ function BottomFooter({ darkMode = true }) {
     `}
     >
       <CopyrightDisclaimer
-        year="2023"
+        year={copyright.year}
         author={copyright.author}
         rights={copyright.rights}
         link="https://rami-al-saadi.vercel.app/"
