@@ -724,17 +724,16 @@ const projects = [
     name: "TM WorkFLOWs MS",
     description: "A workflow and management solution for the TransMIT GmbH that automates various business processes such as the process of the creation of a new center, the accounting and invoicing processes, and other web apps. It is built using Bonitasoft 2023 platform and includes custom UI/UX, Connectors, REST APIs, and integrations with third party services.",
     tags: [
-      { name: "Groovy", color: "green-text-gradient" },
       {
         name: "Java",
         color: "green-text-gradient",
       },
+      { name: "Groovy", color: "green-text-gradient" },
       {
         name: "JavaScript",
         color: "green-text-gradient",
       },
       { name: "RESTful APIs", color: "green-text-gradient" },
-      { name: "Java", color: "green-text-gradient" },
       { name: "PostgreSQL", color: "pink-text-gradient" },
       { name: "MariaDB", color: "pink-text-gradient" },
       { name: "Spring", color: "green-text-gradient" },
