@@ -650,7 +650,12 @@ const projects = [
       { name: "BPMN 2.0", color: "pink-text-gradient" },
       { name: "Groovy", color: "green-text-gradient" },
       { name: "MySQL", color: "pink-text-gradient" },
-      { name: "PostgreSQL", color: "pink-text-gradient" }
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      { name: "Maven", color: "blue-text-gradient" },
+
     ],
     images: [cibFlowLogo],
     // source_code_link: "https://github.com/Rami24t" Lehnert GmbH
@@ -693,7 +698,7 @@ const projects = [
     images: [tmBon23Workflows, tmBon23Workflows2],
     // source_code_link: "https://github.com/Rami24t",
   },
-    {
+  {
     name: "Others",
     description:
       "Other projects can be found on my GitHub profile. They include a live BitCoin currency converter, a react Car and a react Boat speedometers' simulations, a CLI cashier return solution, handcrafted CSS illustrations and animations, artistic pages, websites' coding challenges, web development exercises, JavaScript challenges and tests, and more.",
