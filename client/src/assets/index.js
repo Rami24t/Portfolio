@@ -56,6 +56,7 @@ import inCall from "./projects/inCall.webp";
 import portfolio from "./projects/portfolio.webp";
 import tmBon23Workflows from "./projects/TMBon23WorkFlowsMS/tmbon23workflows.png";
 import tmBon23Workflows2 from "./projects/TMBon23WorkFlowsMS/bonitasoft.svg";
+import cibFlowLogo from "./projects/CIBFlow/cibFlowLogo.svg";
 // import quote from "./projects/quote.webp";
 import sun from "./projects/sun.webp";
 import sweety from "./projects/sweety.webp";
@@ -138,6 +139,7 @@ export {
   portfolio,
   tmBon23Workflows,
   tmBon23Workflows2,
+  cibFlowLogo,
   // quote,
   sun,
   sweety,

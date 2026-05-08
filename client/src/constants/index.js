@@ -76,6 +76,7 @@ import {
   portfolio3d,
   tmBon23Workflows,
   tmBon23Workflows2,
+  cibFlowLogo,
   mobile,
   // threejs,
   // backend,
@@ -201,7 +202,7 @@ const careers = [
     date: "Jan 2024 - Present",
     points: [
       "Developing, maintaining and upgrading software and Full Stack Web applications and APIs.",
-      "Making good use of a variety of technologies including Spring Boot, Relational databases, TomCat Server, Maven, Java Servlets, JSP, Rest APIs, Cib7, Bonitasoft, Docker, Git, Lucee, open source software, and others.",
+      "Making good use of a variety of technologies including Spring Boot, Relational databases, TomCat Server, Maven, Java Servlets, JSP, Rest APIs, CIB flow, Bonitasoft, Docker, Git, Lucee, open source software, and others.",
       "Successfully using various programming languages such as Java, SQL, Groovy, JavaScript, CSS, HTML, Python, ColdFusionML, PHP and others.",
       "Implementing and migration of workflow management solutions.",
       "Programming, integration, migration, updating and testing of software.",
@@ -639,6 +640,60 @@ const projects = [
       "https://github.com/Rami24t/Azure-OpenAI-Chat-Completion-Web-App",
   },
   {
+    name: "CIB Flow Projects",
+    description: "Development and migration of custom applications and automation systems, including claims management and invoice entry/approval workflows, from legacy Java/JS (Bonitasoft7) to Java Spring Boot, Groovy, and CIB Flow for Lehnert GmbH. Includes customer-driven enhancements.",
+    tags: [
+      { name: "Java", color: "green-text-gradient" },
+      { name: "Spring Boot", color: "green-text-gradient" },
+      { name: "REST APIs", color: "green-text-gradient" },
+      { name: "CIB flow", color: "pink-text-gradient" },
+      { name: "BPMN 2.0", color: "pink-text-gradient" },
+      { name: "Groovy", color: "green-text-gradient" },
+      { name: "MySQL", color: "pink-text-gradient" },
+      { name: "PostgreSQL", color: "pink-text-gradient" }
+    ],
+    images: [cibFlowLogo],
+    // source_code_link: "https://github.com/Rami24t" Lehnert GmbH
+  },
+  {
+    name: "TM WorkFLOWs MS",
+    description: "A workflow and management solution for the TransMIT GmbH that automates various business processes such as the process of the creation of a new center, the accounting and invoicing processes, and other web apps. It is built using Bonitasoft 2023 platform and includes custom UI/UX, Connectors, REST APIs, and integrations with third party services.",
+    tags: [
+      {
+        name: "Java",
+        color: "green-text-gradient",
+      },
+      { name: "Groovy", color: "green-text-gradient" },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      { name: "RESTful APIs", color: "green-text-gradient" },
+      { name: "PostgreSQL", color: "pink-text-gradient" },
+      { name: "MariaDB", color: "pink-text-gradient" },
+      { name: "Spring", color: "green-text-gradient" },
+      { name: "TomCat", color: "orange-text-gradient" },
+      { name: "Maven", color: "blue-text-gradient" },
+      { name: "Docker", color: "blue-text-gradient" },
+      { name: "Linux", color: "orange-text-gradient" },
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      { name: "Bonitasoft", color: "pink-text-gradient" },
+      {
+        name: "BPMN2",
+        color: "pink-text-gradient",
+      },
+    ],
+    images: [tmBon23Workflows, tmBon23Workflows2],
+    // source_code_link: "https://github.com/Rami24t",
+  },
+    {
     name: "Others",
     description:
       "Other projects can be found on my GitHub profile. They include a live BitCoin currency converter, a react Car and a react Boat speedometers' simulations, a CLI cashier return solution, handcrafted CSS illustrations and animations, artistic pages, websites' coding challenges, web development exercises, JavaScript challenges and tests, and more.",
@@ -727,44 +782,6 @@ const projects = [
       videoChat,
     ],
     source_code_link: "https://github.com/Rami24t",
-  },
-  {
-    name: "TM WorkFLOWs MS",
-    description: "A workflow and management solution for the TransMIT GmbH that automates various business processes such as the process of the creation of a new center, the accounting and invoicing processes, and other web apps. It is built using Bonitasoft 2023 platform and includes custom UI/UX, Connectors, REST APIs, and integrations with third party services.",
-    tags: [
-      {
-        name: "Java",
-        color: "green-text-gradient",
-      },
-      { name: "Groovy", color: "green-text-gradient" },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      { name: "RESTful APIs", color: "green-text-gradient" },
-      { name: "PostgreSQL", color: "pink-text-gradient" },
-      { name: "MariaDB", color: "pink-text-gradient" },
-      { name: "Spring", color: "green-text-gradient" },
-      { name: "TomCat", color: "orange-text-gradient" },
-      { name: "Maven", color: "blue-text-gradient" },
-      { name: "Docker", color: "blue-text-gradient" },
-      { name: "Linux", color: "orange-text-gradient" },
-      {
-        name: "HTML",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      { name: "Bonitasoft", color: "pink-text-gradient" },
-      {
-        name: "BPMN2",
-        color: "pink-text-gradient",
-      },
-    ],
-    images: [tmBon23Workflows, tmBon23Workflows2],
-    // source_code_link: "https://github.com/Rami24t",
   },
 ];
 
