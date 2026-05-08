@@ -640,8 +640,8 @@ const projects = [
       "https://github.com/Rami24t/Azure-OpenAI-Chat-Completion-Web-App",
   },
   {
-    name: "CIB Flow Projects",
-    description: "Development and migration of custom applications and automation systems, including claims management and invoice entry/approval workflows, from legacy Java/JS (Bonitasoft7) to Java Spring Boot, Groovy, and CIB Flow for Lehnert GmbH. Includes customer-driven enhancements.",
+    name: "CIB flow Projects",
+    description: "Development and migration of custom applications and automation systems, including claims management and invoice entry/approval workflows, from legacy Java/JS (Bonitasoft7) to Java Spring Boot, Groovy, and CIB flow for Lehnert GmbH. Includes customer-driven enhancements.",
     tags: [
       { name: "Java", color: "green-text-gradient" },
       { name: "Spring Boot", color: "green-text-gradient" },
