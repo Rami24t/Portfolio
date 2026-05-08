@@ -16,10 +16,9 @@ const About = ({ isMobile }) => {
       </motion.div>
 
       <p className={tw.heroSubText}>
-        An aspiring mid <span className="text-blue-500">web developer</span>{" "}
+        A <span className="text-blue-500">web developer</span>{" "}
         with a passion for <span className="text-blue-500">software</span>{" "}
-        engineering and
-        <span className="text-blue-500"> web development</span>.
+        engineering.
       </p>
       <p className={tw.heroSubText}>
         I enjoy developing <span className="text-blue-500">websites</span> and{" "}

@@ -31,7 +31,7 @@ const Hero = ({ isMobile }) => {
           </h2>
           <p className={`${tw.heroSubText} mt-2 text-white-100`}>
             I enjoy <span className="text-secondary">developing</span> high end
-            JavaScript <span className="text-secondary">software</span>{" "}
+            Java/Script <span className="text-secondary">software</span>{" "}
             solutions,
             <br className="md:block hidden" /> dynamic{" "}
             <span className="text-secondary">Web Applications</span>, and

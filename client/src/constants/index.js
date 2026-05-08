@@ -207,7 +207,7 @@ const careers = [
       "Programming, integration, migration, updating and testing of software.",
       "Participating in code reviews and providing constructive feedback to other developers.",
       "Collaborating with teams to create high-quality products.",
-      "Implementing clean backend and responsive FE designs and ensuring cross-browser compatibility.",
+      "Implementing clean Backend and responsive and cross-compatible Frontend designs.",
     ],
   },
   {
@@ -274,11 +274,19 @@ const testimonials = [
   },
   // {
   //   testimonial:
+  //     "Ich schätze besonders sein strukturiertes Arbeiten und die Fähigkeit, auch komplexe Projekte zu erweitern, zu verbessern und zuverlässig umzusetzen.",
+  //   name: "Andrea Fellenberg",
+  //   designation: "Programmiererin",
+  //   company: "TransMIT",
+  //   image: "https://teammit.transmit.de/images/teammit/andrea_fellenberg.jpg",
+  // },
+  // {
+  //   testimonial:
   //     "I've never met a web developer who truly cares about their clients' success like Rami does.",
-  //   name: "Chris Brown",
-  //   designation: "COO",
-  //   company: "DEF Corp",
-  //   image1: "https://randomuser.me/api/portraits/men/5.webp",
+  //   name: "Wael Chaaban",
+  //   designation: "CEO",
+  //   company: "Techno Gait",
+  //   image: "https://media.licdn.com/dms/image/v2/D4D03AQEBfTG6LNHMrQ/profile-displayphoto-scale_200_200/B4DZywHhjAH4AY-/0/1772481303311?e=1774483200&v=beta&t=JcAI8c9PbC1FRB2Zaq3rRgFWVhSyRkPb3FUOiUzXqJE"
   // },
   // {
   //   testimonial:
