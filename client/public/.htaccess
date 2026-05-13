@@ -4,6 +4,9 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^.*ramidev\.tech$
 RewriteRule ^sitemap.xml$ sitemap-tech.xml [NC]
 
+RewriteCond %{HTTP_HOST} ^.*ramidev\.de$
+RewriteRule ^sitemap.xml$ sitemap-de.xml [NC]
+
 RewriteCond %{HTTP_HOST} ^.*vercel\.app$
 RewriteRule ^sitemap.xml$ sitemap-app.xml [NC]
 

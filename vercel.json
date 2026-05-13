@@ -29,6 +29,16 @@
             "has": [
                 {
                     "type": "host",
+                    "value": "www.ramidev.de"
+                }
+            ],
+            "destination": "/sitemap-de.xml"
+        },
+        {
+            "source": "/sitemap.xml",
+            "has": [
+                {
+                    "type": "host",
                     "value": "rami-al-saadi.vercel.app"
                 }
             ],
