@@ -191,6 +191,14 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
+  // {
+  //   name: "Java",
+  //   icon: java,
+  // },
+  {
+    name: "Spring",
+    icon: spring,
+  },
 ];
 
 const careers = [
