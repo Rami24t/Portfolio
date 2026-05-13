@@ -665,7 +665,7 @@ const projects = [
       { name: "Maven", color: "blue-text-gradient" },
 
     ],
-    images: [cibFlowLogo],
+    images: [cibFlowLogo,spring],
     // source_code_link: "https://github.com/Rami24t" Lehnert GmbH
   },
   {
