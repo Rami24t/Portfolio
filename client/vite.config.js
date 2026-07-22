@@ -42,6 +42,16 @@ export default defineConfig({
         ],
         destination: "/sitemap-de.xml",
       },
+      {
+        source: "/sitemap.xml",
+        has: [
+          {
+            type: "host",
+            value: "www.ramidev.site",
+          },
+        ],
+        destination: "/sitemap-site.xml",
+      },
     ],
   },
 });
